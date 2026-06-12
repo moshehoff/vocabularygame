@@ -4,7 +4,10 @@ import { isQuestion } from './types.ts'
 import { playClick, playCorrect, playCorrectHalf, playWin200, playWrong, resumeAudio } from './sounds.ts'
 
 const MUTE_KEY = 'trivia-muted'
-const AUTO_ADVANCE_MS = 5000
+/** אַחֲרֵי תְּשׁוּבָה נְכוֹנָה */
+const AUTO_ADVANCE_AFTER_CORRECT_MS = 3000
+/** אַחֲרֵי גִּלּוּי תְּשׁוּבָה (שְׁתֵּי טָעוּיוֹת) — קְצַת יוֹתֵר זְמַן לִקְרֹא */
+const AUTO_ADVANCE_AFTER_REVEAL_MS = 5000
 
 type TargetScore = 100 | 200 | 300
 type Phase = 'loading' | 'error' | 'splash' | 'answering' | 'wrong' | 'correct' | 'revealed'
@@ -29,7 +32,8 @@ const UI = {
   correct: 'נָכוֹן!',
   revealedCaption: 'הִנֵּה הַתְּשׁוּבָה הַנְּכוֹנָה:',
   next: 'שְׁאֵלָה הַבָּאָה',
-  autoNext: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ חָמֵשׁ שְׁנִיּוֹת…',
+  autoNextAfterCorrect: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ שָׁלוֹשׁ שְׁנִיּוֹת…',
+  autoNextAfterReveal: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ חָמֵשׁ שְׁנִיּוֹת…',
   winSub: 'כָּל הַכָּבוֹד!',
   /** חֲזָרָה לִבְחִירַת רָמָה — גַּם מֵעַל שְׁכֶבֶת הַנִּצָּחוֹן */
   home: 'לַמָּסָך הָרֹאשִׁי',
@@ -126,12 +130,12 @@ export function mountGame(root: HTMLElement): () => void {
     }
   }
 
-  const scheduleAdvance = () => {
+  const scheduleAdvance = (delayMs: number) => {
     clearAdvance()
     advanceTimer = window.setTimeout(() => {
       advanceTimer = null
       if (phase === 'correct' || phase === 'revealed') goNext()
-    }, AUTO_ADVANCE_MS)
+    }, delayMs)
   }
 
   const goToHome = () => {
@@ -355,7 +359,7 @@ export function mountGame(root: HTMLElement): () => void {
         const hitCap = addScore(pts)
         phase = 'correct'
         render()
-        if (!hitCap) scheduleAdvance()
+        if (!hitCap) scheduleAdvance(AUTO_ADVANCE_AFTER_CORRECT_MS)
         return
       }
       wrongCount += 1
@@ -364,7 +368,7 @@ export function mountGame(root: HTMLElement): () => void {
       if (wrongCount >= 2) {
         phase = 'revealed'
         render()
-        scheduleAdvance()
+        scheduleAdvance(AUTO_ADVANCE_AFTER_REVEAL_MS)
       } else {
         phase = 'wrong'
         render()
@@ -421,7 +425,7 @@ export function mountGame(root: HTMLElement): () => void {
       main.appendChild(cap)
       const autoR = document.createElement('p')
       autoR.className = 'auto-hint'
-      autoR.textContent = UI.autoNext
+      autoR.textContent = UI.autoNextAfterReveal
       main.appendChild(autoR)
       const nextBtnR = document.createElement('button')
       nextBtnR.type = 'button'
@@ -462,7 +466,7 @@ export function mountGame(root: HTMLElement): () => void {
       }
       const auto = document.createElement('p')
       auto.className = 'auto-hint'
-      auto.textContent = UI.autoNext
+      auto.textContent = UI.autoNextAfterCorrect
       main.appendChild(auto)
       const nextBtn = document.createElement('button')
       nextBtn.type = 'button'
