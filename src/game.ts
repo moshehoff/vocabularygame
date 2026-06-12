@@ -4,7 +4,7 @@ import { isQuestion } from './types.ts'
 import { playClick, playCorrect, playCorrectHalf, playWin200, playWrong, resumeAudio } from './sounds.ts'
 
 const MUTE_KEY = 'trivia-muted'
-const AUTO_ADVANCE_MS = 8000
+const AUTO_ADVANCE_MS = 5000
 
 type TargetScore = 100 | 200 | 300
 type Phase = 'loading' | 'error' | 'splash' | 'answering' | 'wrong' | 'correct' | 'revealed'
@@ -29,7 +29,7 @@ const UI = {
   correct: 'נָכוֹן!',
   revealedCaption: 'הִנֵּה הַתְּשׁוּבָה הַנְּכוֹנָה:',
   next: 'שְׁאֵלָה הַבָּאָה',
-  autoNext: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ שְׁמוֹנֶה שְׁנִיּוֹת…',
+  autoNext: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ חָמֵשׁ שְׁנִיּוֹת…',
   winSub: 'כָּל הַכָּבוֹד!',
   /** חֲזָרָה לִבְחִירַת רָמָה — גַּם מֵעַל שְׁכֶבֶת הַנִּצָּחוֹן */
   home: 'לַמָּסָך הָרֹאשִׁי',
