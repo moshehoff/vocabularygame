@@ -72,10 +72,46 @@ export function playCorrectHalf(muted: boolean): void {
   })
 }
 
+/** טָעוּת רִאשׁוֹנָה — יוֹרֵד נָמוּךְ, אִטִּי וְעָצוּב */
 export function playWrong(muted: boolean): void {
   if (muted) return
-  beep(180, 0.25, 'triangle', 0.15)
-  setTimeout(() => beep(140, 0.3, 'triangle', 0.12), 120)
+  const c = getCtx()
+  if (!c) return
+  const t = c.currentTime
+  const freqs = [233.08, 220, 196] /* B♭3 → A3 → G3 */
+  freqs.forEach((freq, i) => {
+    const o = c.createOscillator()
+    const g = c.createGain()
+    o.type = 'sine'
+    o.frequency.value = freq
+    g.gain.setValueAtTime(0.11, t + i * 0.16)
+    g.gain.exponentialRampToValueAtTime(0.001, t + i * 0.16 + 0.42)
+    o.connect(g)
+    g.connect(c.destination)
+    o.start(t + i * 0.16)
+    o.stop(t + i * 0.16 + 0.48)
+  })
+}
+
+/** טָעוּת שְׁנִיָּה וְגִלּוּי — עוֹד יוֹתֵר כּוֹבֵד וְעָצֵב */
+export function playWrongFinal(muted: boolean): void {
+  if (muted) return
+  const c = getCtx()
+  if (!c) return
+  const t = c.currentTime
+  const freqs = [196, 174.61, 155.56] /* G3 → F3 → D♯3 */
+  freqs.forEach((freq, i) => {
+    const o = c.createOscillator()
+    const g = c.createGain()
+    o.type = 'triangle'
+    o.frequency.value = freq
+    g.gain.setValueAtTime(0.09, t + i * 0.22)
+    g.gain.exponentialRampToValueAtTime(0.001, t + i * 0.22 + 0.55)
+    o.connect(g)
+    g.connect(c.destination)
+    o.start(t + i * 0.22)
+    o.stop(t + i * 0.22 + 0.62)
+  })
 }
 
 /** סִיּוּם יַעַד נִיקּוּד (מֵאָה / מָאָה וּשְׁנַיִם / שְׁלוֹשׁ מֵאוֹת) */

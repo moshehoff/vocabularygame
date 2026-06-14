@@ -102,6 +102,14 @@ body {
   text-shadow: 0 0 18px rgba(174, 213, 129, 0.9), 0 2px 0 rgba(0, 0, 0, 0.35);
 }
 
+.points-pop--penalty {
+  font-size: clamp(1.85rem, 7.5vw, 2.5rem);
+  color: #ffab91;
+  filter: drop-shadow(0 0 16px rgba(255, 138, 128, 0.55));
+  -webkit-text-stroke: 1px rgba(183, 28, 28, 0.35);
+  text-shadow: 0 0 14px rgba(255, 138, 128, 0.75), 0 2px 0 rgba(0, 0, 0, 0.35);
+}
+
 @keyframes points-rise {
   0% {
     opacity: 0;

@@ -5,7 +5,6 @@ export type QuestionType = 'synonym' | 'proverb' | 'trivia'
  * כְּדֵי שֶׁיֶּלֶד בֶּן 7 יוּכַל לִקְרוֹת בְּבֵרוּר.
  */
 export type Question = {
-  id: string
   type: QuestionType
   /** הַמִּילָה, הַפִּתְגָם אוֹ נִיסּוּחַ הַשְּׁאֵלָה — מְנוּקָּד */
   prompt: string
@@ -19,7 +18,6 @@ export type Question = {
 export function isQuestion(x: unknown): x is Question {
   if (!x || typeof x !== 'object') return false
   const o = x as Record<string, unknown>
-  if (typeof o.id !== 'string') return false
   if (o.type !== 'synonym' && o.type !== 'proverb' && o.type !== 'trivia') return false
   if (typeof o.prompt !== 'string') return false
   if (!Array.isArray(o.options) || o.options.length !== 4) return false

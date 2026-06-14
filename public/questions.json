@@ -1,6 +1,5 @@
 [
   {
-    "id": "voc-01",
     "type": "synonym",
     "prompt": "אַבְּסוּרְדִי",
     "options": [
@@ -12,7 +11,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-02",
     "type": "synonym",
     "prompt": "פָּרָדוֹקְס",
     "options": [
@@ -24,7 +22,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-03",
     "type": "synonym",
     "prompt": "אַרְטִילָאִי",
     "options": [
@@ -36,7 +33,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-04",
     "type": "synonym",
     "prompt": "תַקְדִּימִי",
     "options": [
@@ -48,7 +44,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-05",
     "type": "synonym",
     "prompt": "חָדְלוֹן",
     "options": [
@@ -60,7 +55,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-06",
     "type": "synonym",
     "prompt": "מְהוּסָּס",
     "options": [
@@ -72,7 +66,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-07",
     "type": "synonym",
     "prompt": "נָחוּשׁ",
     "options": [
@@ -84,7 +77,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-08",
     "type": "synonym",
     "prompt": "עַקְבִי",
     "options": [
@@ -96,7 +88,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-09",
     "type": "synonym",
     "prompt": "אֵיתָן",
     "options": [
@@ -108,7 +99,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-10",
     "type": "synonym",
     "prompt": "כַּבִּיר",
     "options": [
@@ -120,7 +110,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-11",
     "type": "synonym",
     "prompt": "זְעִיר",
     "options": [
@@ -132,7 +121,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-12",
     "type": "synonym",
     "prompt": "שׁוּלִי",
     "options": [
@@ -144,7 +132,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-13",
     "type": "synonym",
     "prompt": "מַהוּתִי",
     "options": [
@@ -156,7 +143,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-14",
     "type": "synonym",
     "prompt": "מוּבְהָק",
     "options": [
@@ -168,7 +154,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-15",
     "type": "synonym",
     "prompt": "תָּמֵהַּ",
     "options": [
@@ -180,7 +165,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-16",
     "type": "synonym",
     "prompt": "שָׁנוּן",
     "options": [
@@ -192,7 +176,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-17",
     "type": "synonym",
     "prompt": "פִּיקֵּחַ",
     "options": [
@@ -204,7 +187,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-18",
     "type": "synonym",
     "prompt": "נָבוֹן",
     "options": [
@@ -216,7 +198,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-19",
     "type": "synonym",
     "prompt": "תְּבוּנִי",
     "options": [
@@ -228,7 +209,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-20",
     "type": "synonym",
     "prompt": "יְסוֹדִי",
     "options": [
@@ -240,7 +220,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-21",
     "type": "synonym",
     "prompt": "מוּפָשָׁט",
     "options": [
@@ -252,7 +231,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-22",
     "type": "synonym",
     "prompt": "מוּחָשִׁי",
     "options": [
@@ -264,7 +242,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-23",
     "type": "synonym",
     "prompt": "מוּרְכָּב",
     "options": [
@@ -276,7 +253,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-24",
     "type": "synonym",
     "prompt": "מְגֻבָּשׁ",
     "options": [
@@ -288,7 +264,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-25",
     "type": "synonym",
     "prompt": "סָמוּי",
     "options": [
@@ -300,7 +275,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-26",
     "type": "synonym",
     "prompt": "גָּלוּי",
     "options": [
@@ -312,7 +286,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-27",
     "type": "synonym",
     "prompt": "נָדִיר",
     "options": [
@@ -324,7 +297,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-28",
     "type": "synonym",
     "prompt": "שָׁכִיחַ",
     "options": [
@@ -336,7 +308,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-29",
     "type": "synonym",
     "prompt": "הַדְרַגְתִּי",
     "options": [
@@ -348,7 +319,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-30",
     "type": "synonym",
     "prompt": "פִּתְאוֹמִי",
     "options": [
@@ -360,7 +330,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-31",
     "type": "synonym",
     "prompt": "סָפֵק",
     "options": [
@@ -372,7 +341,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-32",
     "type": "synonym",
     "prompt": "וַדָּאוּת",
     "options": [
@@ -384,7 +352,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-33",
     "type": "synonym",
     "prompt": "חָרִיג",
     "options": [
@@ -396,7 +363,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-34",
     "type": "synonym",
     "prompt": "שִׁגְרָתִי",
     "options": [
@@ -408,7 +374,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-35",
     "type": "synonym",
     "prompt": "יוֹצֵא דּוֹפֶן",
     "options": [
@@ -420,7 +385,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-36",
     "type": "synonym",
     "prompt": "יִיחוּדִי",
     "options": [
@@ -432,7 +396,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-37",
     "type": "synonym",
     "prompt": "מָתוּן",
     "options": [
@@ -444,7 +407,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-38",
     "type": "synonym",
     "prompt": "קִיצוֹנִי",
     "options": [
@@ -456,7 +418,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-39",
     "type": "synonym",
     "prompt": "עַקֶּשׁ",
     "options": [
@@ -468,7 +429,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-40",
     "type": "synonym",
     "prompt": "גָּמִישׁ",
     "options": [
@@ -480,7 +440,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-41",
     "type": "synonym",
     "prompt": "נִמְרָץ",
     "options": [
@@ -492,7 +451,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-42",
     "type": "synonym",
     "prompt": "אָדִישׁ",
     "options": [
@@ -504,7 +462,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-43",
     "type": "synonym",
     "prompt": "סַקְרָן",
     "options": [
@@ -516,7 +473,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-44",
     "type": "synonym",
     "prompt": "דָּרוּךְ",
     "options": [
@@ -528,7 +484,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-45",
     "type": "synonym",
     "prompt": "דְּרָמָטִי",
     "options": [
@@ -540,7 +495,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-46",
     "type": "synonym",
     "prompt": "מַרְשִׁים",
     "options": [
@@ -552,7 +506,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-47",
     "type": "synonym",
     "prompt": "מַרְתִּיק",
     "options": [
@@ -564,7 +517,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-48",
     "type": "synonym",
     "prompt": "מַאֲלִיף",
     "options": [
@@ -576,7 +528,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-49",
     "type": "synonym",
     "prompt": "מַשְׁכִּנֵעַ",
     "options": [
@@ -588,7 +539,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-50",
     "type": "synonym",
     "prompt": "מוּפְרָךְ",
     "options": [
@@ -600,7 +550,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-51",
     "type": "synonym",
     "prompt": "מַבְיךְ",
     "options": [
@@ -612,7 +561,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-52",
     "type": "synonym",
     "prompt": "מַחְפִּיר",
     "options": [
@@ -624,7 +572,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-53",
     "type": "synonym",
     "prompt": "מוּפְלָא",
     "options": [
@@ -636,7 +583,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-54",
     "type": "synonym",
     "prompt": "מוּפְלָג",
     "options": [
@@ -648,7 +594,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-55",
     "type": "synonym",
     "prompt": "כּוֹשֵׁל",
     "options": [
@@ -660,7 +605,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-56",
     "type": "synonym",
     "prompt": "מַזְהִיר",
     "options": [
@@ -672,7 +616,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-57",
     "type": "synonym",
     "prompt": "עָגוּם",
     "options": [
@@ -684,7 +627,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-58",
     "type": "synonym",
     "prompt": "קוֹדֵר",
     "options": [
@@ -696,7 +638,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-59",
     "type": "synonym",
     "prompt": "זָחוֹחַ",
     "options": [
@@ -708,7 +649,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-60",
     "type": "synonym",
     "prompt": "יָהִיר",
     "options": [
@@ -720,7 +660,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-61",
     "type": "synonym",
     "prompt": "צָנוּעַ",
     "options": [
@@ -732,7 +671,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-62",
     "type": "synonym",
     "prompt": "נָדִיב",
     "options": [
@@ -744,7 +682,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-63",
     "type": "synonym",
     "prompt": "קַפְּדָן",
     "options": [
@@ -756,7 +693,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-64",
     "type": "synonym",
     "prompt": "פַּשְׁרָן",
     "options": [
@@ -768,7 +704,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-65",
     "type": "synonym",
     "prompt": "נֶאֱמָן",
     "options": [
@@ -780,7 +715,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-66",
     "type": "synonym",
     "prompt": "עַרְמוּמִי",
     "options": [
@@ -792,7 +726,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-67",
     "type": "synonym",
     "prompt": "פַּזִּיז",
     "options": [
@@ -804,7 +737,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-68",
     "type": "synonym",
     "prompt": "זָהִיר",
     "options": [
@@ -816,7 +748,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-69",
     "type": "synonym",
     "prompt": "אַחֲרַאִי",
     "options": [
@@ -828,7 +759,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-70",
     "type": "synonym",
     "prompt": "נִלְהָב",
     "options": [
@@ -840,7 +770,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-71",
     "type": "synonym",
     "prompt": "מְסוּיָּג",
     "options": [
@@ -852,7 +781,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-72",
     "type": "synonym",
     "prompt": "סְפַקְנִי",
     "options": [
@@ -864,7 +792,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-73",
     "type": "synonym",
     "prompt": "בִּיקֹרְתִּי",
     "options": [
@@ -876,7 +803,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-74",
     "type": "synonym",
     "prompt": "יְצִירָתִי",
     "options": [
@@ -888,7 +814,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-75",
     "type": "synonym",
     "prompt": "מָקוֹרִי",
     "options": [
@@ -900,7 +825,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-76",
     "type": "synonym",
     "prompt": "שִׁיטָתִי",
     "options": [
@@ -912,7 +836,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-77",
     "type": "synonym",
     "prompt": "מִקְרִי",
     "options": [
@@ -924,7 +847,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-78",
     "type": "synonym",
     "prompt": "זְמַנִּי",
     "options": [
@@ -936,7 +858,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-79",
     "type": "synonym",
     "prompt": "קָבוּעַ",
     "options": [
@@ -948,7 +869,6 @@
     "correctIndex": 0
   },
   {
-    "id": "voc-80",
     "type": "synonym",
     "prompt": "עָתִיק",
     "options": [
@@ -960,7 +880,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-01",
     "type": "trivia",
     "prompt": "אֵיזוֹ יַבֶּשֶׁת הִיא הַגְּדוֹלָה בְּיוֹתֵר בִּשְׁטָח?",
     "options": [
@@ -972,7 +891,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-02",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת יִשְׂרָאֵל?",
     "options": [
@@ -984,7 +902,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-03",
     "type": "trivia",
     "prompt": "אֵיזוֹ יַבֶּשֶׁת הִיא הַקְּטַנָּה בְּיוֹתֵר?",
     "options": [
@@ -996,7 +913,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-04",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת בְּרָזִיל?",
     "options": [
@@ -1008,7 +924,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-05",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת מִצְרַיִם?",
     "options": [
@@ -1020,7 +935,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-06",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת פָּרִיז?",
     "options": [
@@ -1032,7 +946,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-07",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת בֶּרְלִין?",
     "options": [
@@ -1044,7 +957,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-08",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת רוֹמָה?",
     "options": [
@@ -1056,7 +968,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-09",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת מַדְרִיד?",
     "options": [
@@ -1068,7 +979,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-10",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת קַהִיר?",
     "options": [
@@ -1080,7 +990,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-11",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת יִשְׂרָאֵל?",
     "options": [
@@ -1092,7 +1001,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-12",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת אַרְצוֹת הַבָּרִית?",
     "options": [
@@ -1104,7 +1012,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-13",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת בִּרִיטַנְיָה?",
     "options": [
@@ -1116,7 +1023,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-14",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת יַפַּן?",
     "options": [
@@ -1128,7 +1034,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-15",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת רוּסְיָה?",
     "options": [
@@ -1140,7 +1045,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-16",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה נִמְצֵאת בִּשְׁתֵּי יַבָּשׁוֹת (אֵירוֹפָּה וְאָסְיָה)?",
     "options": [
@@ -1152,7 +1056,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-17",
     "type": "trivia",
     "prompt": "אֵיזוֹ עִיר הִיא גַּם עִיר וְגַם מְדִינָה?",
     "options": [
@@ -1164,7 +1067,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-18",
     "type": "trivia",
     "prompt": "אֵיזוֹ יַבֶּשֶׁת כּוֹלֶלֶת אֶת מִדְבַּר הַסָּהָר?",
     "options": [
@@ -1176,7 +1078,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-19",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה נִמְצֵאת בְּדָרוֹם אַמֵּרִיקָה?",
     "options": [
@@ -1188,7 +1089,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-20",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת קַנָּדָה?",
     "options": [
@@ -1200,7 +1100,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-21",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת קַנָּדָה?",
     "options": [
@@ -1212,7 +1111,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-22",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת אוֹסְטְרַלְיָה?",
     "options": [
@@ -1224,7 +1122,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-23",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת הוֹדוּ?",
     "options": [
@@ -1236,7 +1133,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-24",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת מִצְרַיִם?",
     "options": [
@@ -1248,7 +1144,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-25",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת צָרְפַת?",
     "options": [
@@ -1260,7 +1155,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-26",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת לוֹנְדוֹן?",
     "options": [
@@ -1272,7 +1166,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-27",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת אָתוּנָה?",
     "options": [
@@ -1284,7 +1177,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-28",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת פְּרָאג?",
     "options": [
@@ -1296,7 +1188,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-29",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת וִינָה?",
     "options": [
@@ -1308,7 +1199,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-30",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצֵאת אַמְסְטֶרְדַם?",
     "options": [
@@ -1320,7 +1210,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-31",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת גֶּרְמַנְיָה?",
     "options": [
@@ -1332,7 +1221,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-32",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת אִיטַלְיָה?",
     "options": [
@@ -1344,7 +1232,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-33",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת סְפָרַד?",
     "options": [
@@ -1356,7 +1243,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-34",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת מִצְרַיִם?",
     "options": [
@@ -1368,7 +1254,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-35",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת סִין?",
     "options": [
@@ -1380,7 +1265,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-36",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה שׁוֹכֶנֶת גַּם בְּאֵירוֹפָּה וְגַם בְּאָסְיָה?",
     "options": [
@@ -1392,7 +1276,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-37",
     "type": "trivia",
     "prompt": "אֵיזוֹ עִיר הִיא בִּירַת בְּרָזִיל?",
     "options": [
@@ -1404,7 +1287,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-38",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה הִיא הַגְּדוֹלָה בָּעוֹלָם בִּשְׁטָח?",
     "options": [
@@ -1416,7 +1298,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-39",
     "type": "trivia",
     "prompt": "אֵיזוֹ יַבֶּשֶׁת מַכְלִילָה אֶת מִדְבַּר הַסָּהָר?",
     "options": [
@@ -1428,7 +1309,6 @@
     "correctIndex": 0
   },
   {
-    "id": "geo-40",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת אַרְגֶּנְטִינָה?",
     "options": [
@@ -1440,7 +1320,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-01",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה גּוֹבֶלֶת בְּיִשְׂרָאֵל מִצָּפוֹן?",
     "options": [
@@ -1452,7 +1331,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-02",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה גּוֹבֶלֶת בְּיִשְׂרָאֵל מִמִּזְרָח?",
     "options": [
@@ -1464,7 +1342,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-03",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה גּוֹבֶלֶת בְּיִשְׂרָאֵל מִדָּרוֹם מַעֲרָב?",
     "options": [
@@ -1476,7 +1353,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-04",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה גּוֹבֶלֶת בְּיִשְׂרָאֵל מִצָּפוֹן מִזְרָח?",
     "options": [
@@ -1488,7 +1364,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-05",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה גּוֹבֶלֶת בְּיִשְׂרָאֵל מִצָּפוֹן מַעֲרָב (גְּבוּל יַמִּי בִּלְבַד אֵינוֹ נֶחְשָׁב גְּבוּל יַבַּשְׁתִּי)?",
     "options": [
@@ -1500,7 +1375,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-06",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה נִמְצֵאת דְּרוֹמִית לְיִשְׂרָאֵל מֵעֵבֶר לְסִינַי?",
     "options": [
@@ -1512,7 +1386,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-07",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה נִמְצֵאת מִזְרָחִית לְיִשְׂרָאֵל מֵעֵבֶר לְיַרְדֵּן?",
     "options": [
@@ -1524,7 +1397,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-08",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה נִמְצֵאת צְפוֹנִית לְיִשְׂרָאֵל מֵעֵבֶר לְרַמַּת הַגּוֹלָן?",
     "options": [
@@ -1536,7 +1408,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-09",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה שׁוֹכֶנֶת צְפוֹנִית מַעֲרָבִית לְיִשְׂרָאֵל?",
     "options": [
@@ -1548,7 +1419,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-10",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה נִמְצֵאת דְּרוֹמִית מִזְרָחִית לְיִשְׂרָאֵל (מֵרָחוֹק)?",
     "options": [
@@ -1560,7 +1430,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-11",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת יַרְדֵּן?",
     "options": [
@@ -1572,7 +1441,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-12",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת מִצְרַיִם?",
     "options": [
@@ -1584,7 +1452,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-13",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת סוּרְיָה?",
     "options": [
@@ -1596,7 +1463,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-14",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת לְבָנוֹן?",
     "options": [
@@ -1608,7 +1474,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-15",
     "type": "trivia",
     "prompt": "אֵיזוֹ עִיר הִיא בִּירַת פָּלַשְׁתִּין לְפִי הָרָשׁוּת הַפַּלַשְׁתִּינִית?",
     "options": [
@@ -1620,7 +1485,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-16",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה הִיא הַיְּחִידָה הַגּוֹבֶלֶת בְּיִשְׂרָאֵל גַּם בַּיַּבָּשָׁה וְגַם דֶּרֶךְ יַם סוּף?",
     "options": [
@@ -1632,7 +1496,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-17",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה גּוֹבֶלֶת בְּיִשְׂרָאֵל דֶּרֶךְ רַמַּת הַגּוֹלָן?",
     "options": [
@@ -1644,7 +1507,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-18",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה נִמְצֵאת מִדָּרוֹם לְיָם הַמֶּלַח בְּצַד הַמִּזְרָחִי?",
     "options": [
@@ -1656,7 +1518,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-19",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה שׁוֹכֶנֶת מִמַּעֲרָב לְיִשְׂרָאֵל מֵעֵבֶר לְיָם הַתִּיכוֹן?",
     "options": [
@@ -1668,7 +1529,6 @@
     "correctIndex": 0
   },
   {
-    "id": "nb-20",
     "type": "trivia",
     "prompt": "כַּמָּה מְדִינוֹת גּוֹבְלוֹת בְּיִשְׂרָאֵל בַּיַּבָּשָׁה?",
     "options": [
@@ -1680,7 +1540,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-01",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת יָוָן?",
     "options": [
@@ -1692,7 +1551,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-02",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת הוֹלַנְד?",
     "options": [
@@ -1704,7 +1562,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-03",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת פּוֹלִין?",
     "options": [
@@ -1716,7 +1573,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-04",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת הוּנְגְרִיָה?",
     "options": [
@@ -1728,7 +1584,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-05",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת שְׁוֵדְיָה?",
     "options": [
@@ -1740,7 +1595,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-06",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת נוֹרְוֵגְיָה?",
     "options": [
@@ -1752,7 +1606,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-07",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת פִּינְלַנְד?",
     "options": [
@@ -1764,7 +1617,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-08",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת טוּרְקְיָה?",
     "options": [
@@ -1776,7 +1628,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-09",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת אִירָאן?",
     "options": [
@@ -1788,7 +1639,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-10",
     "type": "trivia",
     "prompt": "מַהִי בִּירַת תַּאִילַנְד?",
     "options": [
@@ -1800,7 +1650,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-11",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ הַמִּילָה ״אַרְטִילָאִי״?",
     "options": [
@@ -1812,7 +1661,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-12",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פָּרָדוֹקְס״?",
     "options": [
@@ -1824,7 +1672,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-13",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מוּבְהָק״?",
     "options": [
@@ -1836,7 +1683,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-14",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַהוּתִי״?",
     "options": [
@@ -1848,7 +1694,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-15",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שִׁיטָתִי״?",
     "options": [
@@ -1860,7 +1705,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-16",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סְפַקְנִי״?",
     "options": [
@@ -1872,7 +1716,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-17",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עַקְבִי״?",
     "options": [
@@ -1884,7 +1727,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-18",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חָרִיג״?",
     "options": [
@@ -1896,7 +1738,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-19",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תָּמֵהַּ״?",
     "options": [
@@ -1908,7 +1749,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-20",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״יְסוֹדִי״?",
     "options": [
@@ -1920,7 +1760,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-21",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה מְתַאֶּרֶת מַשֶּׁהוּ שֶׁלֹּא נִיתָּן לִרְאוֹת אוֹ לִגַּעַת בּוֹ?",
     "options": [
@@ -1932,7 +1771,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-22",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה מְתַאֶּרֶת מַצָּב שֶׁל חוֹסֶר וַדָּאוּת?",
     "options": [
@@ -1944,7 +1782,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-23",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה מְתַאֶּרֶת מַשֶּׁהוּ נָפוּץ מְאוֹד?",
     "options": [
@@ -1956,7 +1793,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-24",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה מְתַאֶּרֶת מַשֶּׁהוּ קִיצוֹנִי מְאוֹד?",
     "options": [
@@ -1968,7 +1804,6 @@
     "correctIndex": 0
   },
   {
-    "id": "adv-25",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה מְתַאֶּרֶת אָדָם שֶׁפּוֹעֵל בְּלִי לְהִתְוַתֵּר?",
     "options": [
@@ -1980,7 +1815,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-01",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ הַמִּילָה ״רָקִיעַ״?",
     "options": [
@@ -1992,7 +1826,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-02",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הֲגִיגִים״?",
     "options": [
@@ -2004,7 +1837,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-03",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״כִּיסּוּפִים״?",
     "options": [
@@ -2016,7 +1848,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-04",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֵרֶג״?",
     "options": [
@@ -2028,7 +1859,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-05",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁחָקִים״?",
     "options": [
@@ -2040,7 +1870,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-06",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תּוּגָה״?",
     "options": [
@@ -2052,7 +1881,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-07",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֲדָוָה״?",
     "options": [
@@ -2064,7 +1892,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-08",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״זִיו״?",
     "options": [
@@ -2076,7 +1903,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-09",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שָׁגָב״?",
     "options": [
@@ -2088,7 +1914,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-10",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נְדוּדִים״?",
     "options": [
@@ -2100,7 +1925,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-11",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אַדֶּרֶת״?",
     "options": [
@@ -2112,7 +1936,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-12",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״כֻּתֹּנֶת״?",
     "options": [
@@ -2124,7 +1947,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-13",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תַּרְמִיל״?",
     "options": [
@@ -2136,7 +1958,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-14",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פּוּזְמָק״?",
     "options": [
@@ -2148,7 +1969,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-15",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נַרְתִּיק״?",
     "options": [
@@ -2160,7 +1980,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-16",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אוֹרָה״?",
     "options": [
@@ -2172,7 +1991,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-17",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שַׁלְהֶבֶת״?",
     "options": [
@@ -2184,7 +2002,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-18",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עָוֹן״?",
     "options": [
@@ -2196,7 +2013,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-19",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּהוֹם״?",
     "options": [
@@ -2208,7 +2024,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-20",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַרְחָבַיִם״?",
     "options": [
@@ -2220,7 +2035,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-21",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אוֹפֶק״?",
     "options": [
@@ -2232,7 +2046,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-22",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֲלִיָּה״ (בְּהֶקֵשׁ סִפְרוּתִי)?",
     "options": [
@@ -2244,7 +2057,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-23",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁקִיעָה״?",
     "options": [
@@ -2256,7 +2068,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-24",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תּוּעָיָה״?",
     "options": [
@@ -2268,7 +2079,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-25",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הִתְרַפְּקוּת״?",
     "options": [
@@ -2280,7 +2090,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-26",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ הַמִּילָה ״לֵבָב״?",
     "options": [
@@ -2292,7 +2101,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-27",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁאוֹן״?",
     "options": [
@@ -2304,7 +2112,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-28",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״דְּמָמָה״?",
     "options": [
@@ -2316,7 +2123,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-29",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֵן״?",
     "options": [
@@ -2328,7 +2134,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-30",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שֶׁפַע״?",
     "options": [
@@ -2340,7 +2145,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-31",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״יְגוֹן״?",
     "options": [
@@ -2352,7 +2156,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-32",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נֵצַח״?",
     "options": [
@@ -2364,7 +2167,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-33",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֵימָה״?",
     "options": [
@@ -2376,7 +2178,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-34",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תִּקְוָה״?",
     "options": [
@@ -2388,7 +2189,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-35",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֹנֶג״?",
     "options": [
@@ -2400,7 +2200,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-36",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שַׁחַק״?",
     "options": [
@@ -2412,7 +2211,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-37",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רֶגַע״ (לְשׁוֹן פְּיוּטִית)?",
     "options": [
@@ -2424,7 +2222,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-38",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֶסֶד״?",
     "options": [
@@ -2436,7 +2233,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-39",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״גְּבוּרָה״?",
     "options": [
@@ -2448,7 +2244,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-40",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שִׁירָה״ (לְשׁוֹן גָּבוֹהַּ)?",
     "options": [
@@ -2460,7 +2255,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-41",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַרְאֶה״ (לְשׁוֹן גָּבוֹהַּ)?",
     "options": [
@@ -2472,7 +2266,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-42",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״זִכָּרוֹן״?",
     "options": [
@@ -2484,7 +2277,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-43",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּהִלָּה״?",
     "options": [
@@ -2496,7 +2288,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-44",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲפֵלָה״?",
     "options": [
@@ -2508,7 +2299,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-45",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״זִיו״?",
     "options": [
@@ -2520,7 +2310,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-46",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נְדִיבוּת״?",
     "options": [
@@ -2532,7 +2321,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-47",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֲנָוָה״?",
     "options": [
@@ -2544,7 +2332,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-48",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּפִלָּה״?",
     "options": [
@@ -2556,7 +2343,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-49",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שָׁלוֹם״?",
     "options": [
@@ -2568,7 +2354,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-50",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲחִיזָה״?",
     "options": [
@@ -2580,7 +2365,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-51",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רִנָּה״?",
     "options": [
@@ -2592,7 +2376,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-52",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״בְּרָכָה״?",
     "options": [
@@ -2604,7 +2387,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-53",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סֵבֶל״?",
     "options": [
@@ -2616,7 +2398,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-54",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נְפִילָה״ (לְשׁוֹן גָּבוֹהַּ)?",
     "options": [
@@ -2628,7 +2409,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-55",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּעָלָה״?",
     "options": [
@@ -2640,7 +2420,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-56",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שׁוֹאָה״?",
     "options": [
@@ -2652,7 +2431,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-57",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חָזוֹן״?",
     "options": [
@@ -2664,7 +2442,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-58",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֵצָה״?",
     "options": [
@@ -2676,7 +2453,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-59",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲמִתָּה״?",
     "options": [
@@ -2688,7 +2464,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-60",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״דֶּרֶךְ״ (לְשׁוֹן גָּבוֹהַּ)?",
     "options": [
@@ -2700,7 +2475,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-61",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֶרֶשׂ״?",
     "options": [
@@ -2712,7 +2486,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-62",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֶבֶן נֶגֶף״?",
     "options": [
@@ -2724,7 +2497,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-63",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַשְׁבֵּר״?",
     "options": [
@@ -2736,7 +2508,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-64",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁאֵרִית״?",
     "options": [
@@ -2748,7 +2519,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-65",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קֶרֶן״ (לְשׁוֹן גָּבוֹהַּ)?",
     "options": [
@@ -2760,7 +2530,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-66",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַעֲלָל״?",
     "options": [
@@ -2772,7 +2541,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-67",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פְּקִידָה״?",
     "options": [
@@ -2784,7 +2552,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-68",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תּוֹעֵבָה״?",
     "options": [
@@ -2796,7 +2563,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-69",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״גּוֹרָל״?",
     "options": [
@@ -2808,7 +2574,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-70",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֶבְלֵי״?",
     "options": [
@@ -2820,7 +2585,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-71",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁלֵמוּת״?",
     "options": [
@@ -2832,7 +2596,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-72",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֲמָל״?",
     "options": [
@@ -2844,7 +2607,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-73",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֵימָה״?",
     "options": [
@@ -2856,7 +2618,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-74",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שֶׁבַח״?",
     "options": [
@@ -2868,7 +2629,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-75",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תִּשְׁבֹּרֶת״?",
     "options": [
@@ -2880,7 +2640,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-76",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רִנָּה״?",
     "options": [
@@ -2892,7 +2651,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-77",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּהִלָּה״?",
     "options": [
@@ -2904,7 +2662,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-78",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֶסֶד״?",
     "options": [
@@ -2916,7 +2673,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-79",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״גְּבוּרָה״?",
     "options": [
@@ -2928,7 +2684,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-80",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֱמֶת״?",
     "options": [
@@ -2940,7 +2695,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-81",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שָׁלוֹם״?",
     "options": [
@@ -2952,7 +2706,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-82",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״בְּרָכָה״?",
     "options": [
@@ -2964,7 +2717,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-83",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֵימָה״?",
     "options": [
@@ -2976,7 +2728,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-84",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תִּקְוָה״?",
     "options": [
@@ -2988,7 +2739,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-85",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֹנֶג״?",
     "options": [
@@ -3000,7 +2750,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-86",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״יְגוֹן״?",
     "options": [
@@ -3012,7 +2761,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-87",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נֵצַח״?",
     "options": [
@@ -3024,7 +2772,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-88",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שַׁחַק״?",
     "options": [
@@ -3036,7 +2783,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-89",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״זִיו״?",
     "options": [
@@ -3048,7 +2794,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-90",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲפֵלָה״?",
     "options": [
@@ -3060,7 +2805,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-91",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שֶׁפַע״?",
     "options": [
@@ -3072,7 +2816,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-92",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֲנָוָה״?",
     "options": [
@@ -3084,7 +2827,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-93",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נְדִיבוּת״?",
     "options": [
@@ -3096,7 +2838,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-94",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חָזוֹן״?",
     "options": [
@@ -3108,7 +2849,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-95",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֵצָה״?",
     "options": [
@@ -3120,7 +2860,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-96",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַעֲלָל״?",
     "options": [
@@ -3132,7 +2871,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-97",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פְּקִידָה״?",
     "options": [
@@ -3144,7 +2882,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-98",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תּוֹעֵבָה״?",
     "options": [
@@ -3156,7 +2893,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-99",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״גּוֹרָל״?",
     "options": [
@@ -3168,7 +2904,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-100",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֶבְלֵי״?",
     "options": [
@@ -3180,7 +2915,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-101",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רֶגַע״ (לְשׁוֹן גָּבוֹהַּ)?",
     "options": [
@@ -3192,7 +2926,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-102",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֶרֶשׂ״?",
     "options": [
@@ -3204,7 +2937,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-103",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֶבֶן נֶגֶף״?",
     "options": [
@@ -3216,7 +2948,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-104",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַשְׁבֵּר״?",
     "options": [
@@ -3228,7 +2959,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-105",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁאֵרִית״?",
     "options": [
@@ -3240,7 +2970,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-106",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קֶרֶן״ (פְּיוּטִי)?",
     "options": [
@@ -3252,7 +2981,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-107",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲחִיזָה״?",
     "options": [
@@ -3264,7 +2992,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-108",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נֵדֶר״?",
     "options": [
@@ -3276,7 +3003,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-109",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁלֵמוּת״?",
     "options": [
@@ -3288,7 +3014,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-110",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עָמָל״?",
     "options": [
@@ -3300,7 +3025,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-111",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֵן״?",
     "options": [
@@ -3312,7 +3036,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-112",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּעָלָה״?",
     "options": [
@@ -3324,7 +3047,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-113",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נְפִילָה״?",
     "options": [
@@ -3336,7 +3058,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-114",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שׁוֹאָה״?",
     "options": [
@@ -3348,7 +3069,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-115",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תּוּעָיָה״?",
     "options": [
@@ -3360,7 +3080,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-116",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הִתְרַפְּקוּת״?",
     "options": [
@@ -3372,7 +3091,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-117",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֹפֶק״?",
     "options": [
@@ -3384,7 +3102,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-118",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רָקִיעַ״?",
     "options": [
@@ -3396,7 +3113,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-119",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שַׁעַר״ (פְּיוּטִי)?",
     "options": [
@@ -3408,7 +3124,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-120",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲגַם״?",
     "options": [
@@ -3420,7 +3135,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-121",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁאִיפָה״?",
     "options": [
@@ -3432,7 +3146,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-122",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּחוּשָׁה״?",
     "options": [
@@ -3444,7 +3157,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-123",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַשְׁעָרָה״?",
     "options": [
@@ -3456,7 +3168,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-124",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַנְהָגָה״?",
     "options": [
@@ -3468,7 +3179,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-125",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַרְחָב״?",
     "options": [
@@ -3480,7 +3190,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-126",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צָמָא״?",
     "options": [
@@ -3492,7 +3201,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-127",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רָעָב״?",
     "options": [
@@ -3504,7 +3212,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-128",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּמוּנָה״?",
     "options": [
@@ -3516,7 +3223,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-129",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קִיּוּם״?",
     "options": [
@@ -3528,7 +3234,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-130",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַשְׁלָמָה״?",
     "options": [
@@ -3540,7 +3245,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-131",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲמִירָה״?",
     "options": [
@@ -3552,7 +3256,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-132",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַבְחָנָה״?",
     "options": [
@@ -3564,7 +3267,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-133",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַסָּע״?",
     "options": [
@@ -3576,7 +3278,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-134",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נְטִיָּה״?",
     "options": [
@@ -3588,7 +3289,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-135",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הִתְבּוֹנְנוּת״?",
     "options": [
@@ -3600,7 +3300,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-136",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַסְקָנָה״?",
     "options": [
@@ -3612,7 +3311,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-137",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סְבִירָה״?",
     "options": [
@@ -3624,7 +3322,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-138",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַגְדָּרָה״?",
     "options": [
@@ -3636,7 +3333,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-139",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תִּכְנוּן״?",
     "options": [
@@ -3648,7 +3344,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-140",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַתְמָדָה״?",
     "options": [
@@ -3660,7 +3355,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-141",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַאֲמָץ״?",
     "options": [
@@ -3672,7 +3366,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-142",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שִׁפּוּט״?",
     "options": [
@@ -3684,7 +3377,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-143",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״בְּחִירָה״?",
     "options": [
@@ -3696,7 +3388,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-144",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַצָּבָה״?",
     "options": [
@@ -3708,7 +3399,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-145",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַפְרָדָה״?",
     "options": [
@@ -3720,7 +3410,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-146",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אִחּוּד״?",
     "options": [
@@ -3732,7 +3421,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-147",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַשְׁוָאָה״?",
     "options": [
@@ -3744,7 +3432,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-148",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַשְׁעָרָה״?",
     "options": [
@@ -3756,7 +3443,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-149",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַסְבָּרָה״?",
     "options": [
@@ -3768,7 +3454,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-150",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַקְשָׁבָה״?",
     "options": [
@@ -3780,7 +3465,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-151",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַשְׁפָּעָה״?",
     "options": [
@@ -3792,7 +3476,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-152",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּנוּעָה״?",
     "options": [
@@ -3804,7 +3487,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-153",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קִדּוּם״?",
     "options": [
@@ -3816,7 +3498,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-154",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נְסִיגָה״?",
     "options": [
@@ -3828,7 +3509,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-155",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַבְטָחָה״?",
     "options": [
@@ -3840,7 +3520,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-156",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אִיּוּם״?",
     "options": [
@@ -3852,7 +3531,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-157",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תַּקָּנָה״?",
     "options": [
@@ -3864,7 +3542,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-158",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סֵדֶר״?",
     "options": [
@@ -3876,7 +3553,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-159",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״בְּלִיָּה״?",
     "options": [
@@ -3888,7 +3564,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-160",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֲלִיפָה״?",
     "options": [
@@ -3900,7 +3575,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-161",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַתְחָלָה״?",
     "options": [
@@ -3912,7 +3586,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-162",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סִיּוּם״?",
     "options": [
@@ -3924,7 +3597,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-163",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַרְחָבָה״?",
     "options": [
@@ -3936,7 +3608,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-164",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צִמְצוּם״?",
     "options": [
@@ -3948,7 +3619,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-165",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חִדּוּשׁ״?",
     "options": [
@@ -3960,7 +3630,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-166",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שִׁמּוּשׁ״?",
     "options": [
@@ -3972,7 +3641,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-167",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אִחְסוּן״?",
     "options": [
@@ -3984,7 +3652,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-168",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַפְעָלָה״?",
     "options": [
@@ -3996,7 +3663,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-169",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״כְּבִישָׁה״?",
     "options": [
@@ -4008,7 +3674,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-170",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שִׁחְרוּר״?",
     "options": [
@@ -4020,7 +3685,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-171",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַצְלָחָה״?",
     "options": [
@@ -4032,7 +3696,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-172",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״כִּשָׁלוֹן״?",
     "options": [
@@ -4044,7 +3707,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-173",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נִסָּיוֹן״?",
     "options": [
@@ -4056,7 +3718,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-174",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מִבְחָן״?",
     "options": [
@@ -4068,7 +3729,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-175",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תּוֹצָאָה״?",
     "options": [
@@ -4080,7 +3740,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-176",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סִבָּה״?",
     "options": [
@@ -4092,7 +3751,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-177",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַצָּב״?",
     "options": [
@@ -4104,7 +3762,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-178",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שִׁנּוּי״?",
     "options": [
@@ -4116,7 +3773,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-179",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַצָּבָה״?",
     "options": [
@@ -4128,7 +3784,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-180",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַעֲרֶכֶת״?",
     "options": [
@@ -4140,7 +3795,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-181",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אָבַד הָלַךְ לְאִבּוּד״?",
     "options": [
@@ -4152,7 +3806,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-182",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אַבְזָם״?",
     "options": [
@@ -4164,7 +3817,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-183",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אִגֶּרֶת״?",
     "options": [
@@ -4176,7 +3828,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-184",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֻכְלוּסִיָּה״?",
     "options": [
@@ -4188,7 +3839,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-185",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲחִיזָה״?",
     "options": [
@@ -4200,7 +3850,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-186",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֶתֶב״?",
     "options": [
@@ -4212,7 +3861,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-187",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אַכְזָבָה״?",
     "options": [
@@ -4224,7 +3872,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-188",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲלֻמָּה״?",
     "options": [
@@ -4236,7 +3883,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-189",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֵפֶר״?",
     "options": [
@@ -4248,7 +3894,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-190",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אָץ״?",
     "options": [
@@ -4260,7 +3905,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-191",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אַרְגָּמָן״?",
     "options": [
@@ -4272,7 +3916,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-192",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֲשֶׁר״?",
     "options": [
@@ -4284,7 +3927,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-193",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אֶשְׁתָּקַד״?",
     "options": [
@@ -4296,7 +3938,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-194",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״אָתוֹן״?",
     "options": [
@@ -4308,7 +3949,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-195",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״בּוּטִיק״?",
     "options": [
@@ -4320,7 +3960,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-196",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״בִּינָה״?",
     "options": [
@@ -4332,7 +3971,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-197",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״בַּצּוֹרֶת״?",
     "options": [
@@ -4344,7 +3982,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-198",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״גַד״?",
     "options": [
@@ -4356,7 +3993,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-199",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״גּוֹלֶה״?",
     "options": [
@@ -4368,7 +4004,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-200",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״גְּלוּיָה״?",
     "options": [
@@ -4380,7 +4015,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-201",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״גַלְמוּד״?",
     "options": [
@@ -4392,7 +4026,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-202",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״גֵּר״?",
     "options": [
@@ -4404,7 +4037,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-203",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״דִּין״?",
     "options": [
@@ -4416,7 +4048,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-204",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״דַרְדַּר״?",
     "options": [
@@ -4428,7 +4059,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-205",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הֵגִיחַ״?",
     "options": [
@@ -4440,7 +4070,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-206",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הוֹרָאָה״?",
     "options": [
@@ -4452,7 +4081,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-207",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַמְלָטָה״?",
     "options": [
@@ -4464,7 +4092,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-208",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַמְתָּנָה״?",
     "options": [
@@ -4476,7 +4103,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-209",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַס״?",
     "options": [
@@ -4488,7 +4114,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-210",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַקְנָטָה״?",
     "options": [
@@ -4500,7 +4125,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-211",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַקְצָבָה״?",
     "options": [
@@ -4512,7 +4136,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-212",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הַשְׁעָרָה״?",
     "options": [
@@ -4524,7 +4147,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-213",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״הִשְׁתּוֹקְקוּת״?",
     "options": [
@@ -4536,7 +4158,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-214",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״וָלָד״?",
     "options": [
@@ -4548,7 +4169,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-215",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״וַעֲדָה״?",
     "options": [
@@ -4560,7 +4180,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-216",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״זֶהֶה״?",
     "options": [
@@ -4572,7 +4191,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-217",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״זַן״?",
     "options": [
@@ -4584,7 +4202,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-218",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״זָעִיר״?",
     "options": [
@@ -4596,7 +4213,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-219",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חַבְלָה״?",
     "options": [
@@ -4608,7 +4224,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-220",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֶדְוָה״?",
     "options": [
@@ -4620,7 +4235,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-221",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חָזוֹת״?",
     "options": [
@@ -4632,7 +4246,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-222",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֹטֶם״?",
     "options": [
@@ -4644,7 +4257,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-223",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חִיוּנִיּוּת״?",
     "options": [
@@ -4656,7 +4268,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-224",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חַיָּט״?",
     "options": [
@@ -4668,7 +4279,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-225",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חָלוּל״?",
     "options": [
@@ -4680,7 +4290,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-226",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חַמְסִין״?",
     "options": [
@@ -4692,7 +4301,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-227",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֶנְוָנִי״?",
     "options": [
@@ -4704,7 +4312,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-228",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חָסוֹן״?",
     "options": [
@@ -4716,7 +4323,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-229",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֻרְבָּן״?",
     "options": [
@@ -4728,7 +4334,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-230",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חָרֵד״?",
     "options": [
@@ -4740,7 +4345,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-231",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חָרוֹן״?",
     "options": [
@@ -4752,7 +4356,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-232",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֲרָטָה״?",
     "options": [
@@ -4764,7 +4367,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-233",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חַרְטוֹם״?",
     "options": [
@@ -4776,7 +4378,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-234",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֲרִיקָה״?",
     "options": [
@@ -4788,7 +4389,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-235",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חַרְצָן״?",
     "options": [
@@ -4800,7 +4400,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-236",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֶרֶשׁ״?",
     "options": [
@@ -4812,7 +4411,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-237",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חָשַׁשׁ״?",
     "options": [
@@ -4824,7 +4422,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-238",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״טֶנֶא״?",
     "options": [
@@ -4836,7 +4433,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-239",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״יָגוֹן״?",
     "options": [
@@ -4848,7 +4444,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-240",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״יָגִיעַ״?",
     "options": [
@@ -4860,7 +4455,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-241",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״יָדוּעַ עַל הָעֶלְיוֹנָה״?",
     "options": [
@@ -4872,7 +4466,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-242",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״יְהִירוּת״?",
     "options": [
@@ -4884,7 +4477,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-243",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״כָּחוּשׁ״?",
     "options": [
@@ -4896,7 +4488,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-244",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״כְּסִיל״?",
     "options": [
@@ -4908,7 +4499,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-245",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״כַּעַךְ״?",
     "options": [
@@ -4920,7 +4510,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-246",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״כְּפִיר״?",
     "options": [
@@ -4932,7 +4521,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-247",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״כַּר״?",
     "options": [
@@ -4944,7 +4532,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-248",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לֶאֱרֹג״?",
     "options": [
@@ -4956,7 +4543,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-249",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְבָנָה״?",
     "options": [
@@ -4968,7 +4554,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-250",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִגְאֹל״?",
     "options": [
@@ -4980,7 +4565,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-251",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִגְמֹעַ״?",
     "options": [
@@ -4992,7 +4576,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-252",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִגְעֹר״?",
     "options": [
@@ -5004,7 +4587,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-253",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִגְרֹב״?",
     "options": [
@@ -5016,7 +4598,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-254",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְגַשֵׁשׁ״?",
     "options": [
@@ -5028,7 +4609,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-255",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְדַוֵּחַ״?",
     "options": [
@@ -5040,7 +4620,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-256",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהַטִּיל״?",
     "options": [
@@ -5052,7 +4631,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-257",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהַכְחִישׁ״?",
     "options": [
@@ -5064,7 +4642,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-258",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהַכְרִיז״?",
     "options": [
@@ -5076,7 +4653,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-259",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהִמָּלֵט״?",
     "options": [
@@ -5088,7 +4664,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-260",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהַפְצִיעַ״?",
     "options": [
@@ -5100,7 +4675,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-261",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהָרִיעַ״?",
     "options": [
@@ -5112,7 +4686,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-262",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהִשְׁתּוֹקֵק״?",
     "options": [
@@ -5124,7 +4697,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-263",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהִתְחַזּוֹת״?",
     "options": [
@@ -5136,7 +4708,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-264",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהַתִּיז״?",
     "options": [
@@ -5148,7 +4719,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-265",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהִתְיַפֵּחַ״?",
     "options": [
@@ -5160,7 +4730,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-266",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְהַתְרִיעַ״?",
     "options": [
@@ -5172,7 +4741,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-267",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִזְקֹף״?",
     "options": [
@@ -5184,7 +4752,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-268",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לַחֲבּוֹשׁ״?",
     "options": [
@@ -5196,7 +4763,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-269",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לַחוּת״?",
     "options": [
@@ -5208,7 +4774,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-270",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לַחֲלוֹשׁ״?",
     "options": [
@@ -5220,7 +4785,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-271",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לַחֲלֵץ״?",
     "options": [
@@ -5232,7 +4796,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-272",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לַחַן״?",
     "options": [
@@ -5244,7 +4807,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-273",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לַחֲפֹץ״?",
     "options": [
@@ -5256,7 +4818,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-274",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִטְמוֹן״?",
     "options": [
@@ -5268,7 +4829,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-275",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְטַפֵּחַ״?",
     "options": [
@@ -5280,7 +4840,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-276",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְכַיֵּס״?",
     "options": [
@@ -5292,7 +4851,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-277",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְלַקֵּט״?",
     "options": [
@@ -5304,7 +4862,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-278",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִמְחוֹת״?",
     "options": [
@@ -5316,7 +4873,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-279",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִמְעֹד״?",
     "options": [
@@ -5328,7 +4884,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-280",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְמַעַן״?",
     "options": [
@@ -5340,7 +4895,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-281",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִנְזֹף״?",
     "options": [
@@ -5352,7 +4906,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-282",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִנְעֹץ״?",
     "options": [
@@ -5364,7 +4917,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-283",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִנְקֹט״?",
     "options": [
@@ -5376,7 +4928,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-284",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְסָרֵב״?",
     "options": [
@@ -5388,7 +4939,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-285",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְעוֹלֵל״?",
     "options": [
@@ -5400,7 +4950,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-286",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לַעֲנֹד״?",
     "options": [
@@ -5412,7 +4961,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-287",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לַעֲקֹץ״?",
     "options": [
@@ -5424,7 +4972,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-288",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לַעֲרֹךְ״?",
     "options": [
@@ -5436,7 +4983,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-289",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְפַאֲתֵי״?",
     "options": [
@@ -5448,7 +4994,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-290",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִפְעוֹת״?",
     "options": [
@@ -5460,7 +5005,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-291",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לֵץ״?",
     "options": [
@@ -5472,7 +5016,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-292",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְצַיֵּת״?",
     "options": [
@@ -5484,7 +5027,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-293",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִקְמוֹל״?",
     "options": [
@@ -5496,7 +5038,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-294",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִקְפּוֹחַ״?",
     "options": [
@@ -5508,7 +5049,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-295",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְקַרְצֵף״?",
     "options": [
@@ -5520,7 +5060,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-296",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִרְכּוֹן״?",
     "options": [
@@ -5532,7 +5071,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-297",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לִרְקֹם״?",
     "options": [
@@ -5544,7 +5082,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-298",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְרַשְׁרֵשׁ״?",
     "options": [
@@ -5556,7 +5093,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-299",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לָשׁוּב״?",
     "options": [
@@ -5568,7 +5104,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-300",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״לְתִפְאֶרֶת״?",
     "options": [
@@ -5580,7 +5115,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-301",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַאֲגָר״?",
     "options": [
@@ -5592,7 +5126,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-302",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מֵאוּמָה״?",
     "options": [
@@ -5604,7 +5137,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-303",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מְגַמְגֵּם״?",
     "options": [
@@ -5616,7 +5148,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-304",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מִגְנַנָּה״?",
     "options": [
@@ -5628,7 +5159,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-305",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַהֲלֻמָּה״?",
     "options": [
@@ -5640,7 +5170,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-306",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מוּגְלָב״?",
     "options": [
@@ -5652,7 +5181,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-307",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מוּם״?",
     "options": [
@@ -5664,7 +5192,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-308",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מוֹעֵד״?",
     "options": [
@@ -5676,7 +5203,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-309",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מָחוֹל״?",
     "options": [
@@ -5688,7 +5214,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-310",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מְחִילָה״?",
     "options": [
@@ -5700,7 +5225,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-311",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מֵחֲמַת״?",
     "options": [
@@ -5712,7 +5236,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-312",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַחְסוֹר״?",
     "options": [
@@ -5724,7 +5247,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-313",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מֶחְקָר״?",
     "options": [
@@ -5736,7 +5258,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-314",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַטָּלָה״?",
     "options": [
@@ -5748,7 +5269,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-315",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַכְמִיר״?",
     "options": [
@@ -5760,7 +5280,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-316",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מִלְּבַד״?",
     "options": [
@@ -5772,7 +5291,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-317",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַלְקוֹשׁ״?",
     "options": [
@@ -5784,7 +5302,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-318",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַלְתָּעוֹת״?",
     "options": [
@@ -5796,7 +5313,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-319",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מֵמַד״?",
     "options": [
@@ -5808,7 +5324,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-320",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מָמוֹן״?",
     "options": [
@@ -5820,7 +5335,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-321",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מִימוּשׁ״?",
     "options": [
@@ -5832,7 +5346,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-322",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מִיעוּט״?",
     "options": [
@@ -5844,7 +5357,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-323",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מִפְגָּע״?",
     "options": [
@@ -5856,7 +5368,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-324",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מְפָרֵךְ״?",
     "options": [
@@ -5868,7 +5379,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-325",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַרְבָּד״?",
     "options": [
@@ -5880,7 +5390,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-326",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַרְכִּיב״?",
     "options": [
@@ -5892,7 +5401,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-327",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מַשְׁאָב״?",
     "options": [
@@ -5904,7 +5412,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-328",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מְשׁוּבָּח״?",
     "options": [
@@ -5916,7 +5423,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-329",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״מִשְׁמֶרֶת״?",
     "options": [
@@ -5928,7 +5434,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-330",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נָאקָה״?",
     "options": [
@@ -5940,7 +5445,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-331",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נֶבֶט״?",
     "options": [
@@ -5952,7 +5456,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-332",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נֶגֶב״?",
     "options": [
@@ -5964,7 +5467,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-333",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נִיגּוּן״?",
     "options": [
@@ -5976,7 +5478,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-334",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נֶחְרָךְ״?",
     "options": [
@@ -5988,7 +5489,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-335",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נַחְשׁוֹל״?",
     "options": [
@@ -6000,7 +5500,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-336",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נִיב״?",
     "options": [
@@ -6012,7 +5511,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-337",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נֶמֶק״?",
     "options": [
@@ -6024,7 +5522,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-338",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נֶקֶר״?",
     "options": [
@@ -6036,7 +5533,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-339",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נְשִׁיפָה״?",
     "options": [
@@ -6048,7 +5544,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-340",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״נָתִיב״?",
     "options": [
@@ -6060,7 +5555,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-341",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סֶדֶק״?",
     "options": [
@@ -6072,7 +5566,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-342",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סִיוּעַ״?",
     "options": [
@@ -6084,7 +5577,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-343",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סַלְמוֹן״?",
     "options": [
@@ -6096,7 +5588,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-344",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״סָפֵק״?",
     "options": [
@@ -6108,7 +5599,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-345",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עָב״?",
     "options": [
@@ -6120,7 +5610,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-346",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֶדְנָה״?",
     "options": [
@@ -6132,7 +5621,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-347",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עוֹגֵן״?",
     "options": [
@@ -6144,7 +5632,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-348",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עִיּוּן״?",
     "options": [
@@ -6156,7 +5643,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-349",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עִיסּוּי״?",
     "options": [
@@ -6168,7 +5654,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-350",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עִיכּוּב״?",
     "options": [
@@ -6180,7 +5665,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-351",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עָמוּם״?",
     "options": [
@@ -6192,7 +5676,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-352",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עָמָל״?",
     "options": [
@@ -6204,7 +5687,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-353",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֲנָוָה״?",
     "options": [
@@ -6216,7 +5698,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-354",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עָפָר״?",
     "options": [
@@ -6228,7 +5709,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-355",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עָצוּם״?",
     "options": [
@@ -6240,7 +5720,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-356",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֵקֶב״?",
     "options": [
@@ -6252,7 +5731,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-357",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֲרִירִי״?",
     "options": [
@@ -6264,7 +5742,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-358",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֵרֶךְ״?",
     "options": [
@@ -6276,7 +5753,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-359",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עָרַם״?",
     "options": [
@@ -6288,7 +5764,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-360",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עֵרָנוּת״?",
     "options": [
@@ -6300,7 +5775,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-361",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״עַתִּיק״?",
     "options": [
@@ -6312,7 +5786,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-362",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פָּז״?",
     "options": [
@@ -6324,7 +5797,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-363",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פִּיוּט״?",
     "options": [
@@ -6336,7 +5808,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-364",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״חֶרֶב פִּיפִיוֹת״?",
     "options": [
@@ -6348,7 +5819,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-365",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פָּנִיקָה״?",
     "options": [
@@ -6360,7 +5830,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-366",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פְּסִיעָה״?",
     "options": [
@@ -6372,7 +5841,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-367",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פִּעְנוּחַ״?",
     "options": [
@@ -6384,7 +5852,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-368",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פִּצּוּי״?",
     "options": [
@@ -6396,7 +5863,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-369",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״פְּקֻדָּה״?",
     "options": [
@@ -6408,7 +5874,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-370",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צֶאֱצָא״?",
     "options": [
@@ -6420,7 +5885,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-371",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צִוּוּי״?",
     "options": [
@@ -6432,7 +5896,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-372",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צְוָחָה״?",
     "options": [
@@ -6444,7 +5907,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-373",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צוֹרֵם״?",
     "options": [
@@ -6456,7 +5918,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-374",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צַח״?",
     "options": [
@@ -6468,7 +5929,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-375",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צָחוֹר״?",
     "options": [
@@ -6480,7 +5940,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-376",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צָמִית״?",
     "options": [
@@ -6492,7 +5951,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-377",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״צָפוּי״?",
     "options": [
@@ -6504,7 +5962,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-378",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קִיבּוֹלֶת״?",
     "options": [
@@ -6516,7 +5973,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-379",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קוֹף״?",
     "options": [
@@ -6528,7 +5984,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-380",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קְטָטָה״?",
     "options": [
@@ -6540,7 +5995,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-381",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קָלַחַת״?",
     "options": [
@@ -6552,7 +6006,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-382",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קוֹמֶץ״?",
     "options": [
@@ -6564,7 +6017,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-383",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קַפְדָּן״?",
     "options": [
@@ -6576,7 +6028,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-384",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״קֵץ״?",
     "options": [
@@ -6588,7 +6039,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-385",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רָדוּד״?",
     "options": [
@@ -6600,7 +6050,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-386",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רָדוֹם״?",
     "options": [
@@ -6612,7 +6061,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-387",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רָהוּט״?",
     "options": [
@@ -6624,7 +6072,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-388",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רָוּי״?",
     "options": [
@@ -6636,7 +6083,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-389",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רוֹעֵם״?",
     "options": [
@@ -6648,7 +6094,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-390",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רוֹפֵף״?",
     "options": [
@@ -6660,7 +6105,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-391",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רַחַשׁ״?",
     "options": [
@@ -6672,7 +6116,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-392",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רֶטֶט״?",
     "options": [
@@ -6684,7 +6127,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-393",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רְכִישָׁה״?",
     "options": [
@@ -6696,7 +6138,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-394",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רָם״?",
     "options": [
@@ -6708,7 +6149,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-395",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״רָקִיעַ״?",
     "options": [
@@ -6720,7 +6160,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-396",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁאָגָה״?",
     "options": [
@@ -6732,7 +6171,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-397",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁאִיפָה״?",
     "options": [
@@ -6744,7 +6182,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-398",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שֶׁבַח״?",
     "options": [
@@ -6756,7 +6193,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-399",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁגָגָה״?",
     "options": [
@@ -6768,7 +6204,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-400",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שָׁגָה״?",
     "options": [
@@ -6780,7 +6215,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-401",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁגִיאָה״?",
     "options": [
@@ -6792,7 +6226,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-402",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שׁוּלַיִם״?",
     "options": [
@@ -6804,7 +6237,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-403",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שָׁזוּר״?",
     "options": [
@@ -6816,7 +6248,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-404",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שַׁחַר״?",
     "options": [
@@ -6828,7 +6259,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-405",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שֶׁטֶף״?",
     "options": [
@@ -6840,7 +6270,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-406",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שִׁיחַ״?",
     "options": [
@@ -6852,7 +6281,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-407",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שָׁלֵו״?",
     "options": [
@@ -6864,7 +6292,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-408",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שְׁנַת יְשָׁרִים״?",
     "options": [
@@ -6876,7 +6303,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-409",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שַׁקְדָּנוּת״?",
     "options": [
@@ -6888,7 +6314,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-410",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שַׁרְבִיט״?",
     "options": [
@@ -6900,7 +6325,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-411",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״שָׁרַף״?",
     "options": [
@@ -6912,7 +6336,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-412",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּבוּסָה״?",
     "options": [
@@ -6924,7 +6347,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-413",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תּוֹבְעָנִי״?",
     "options": [
@@ -6936,7 +6358,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-414",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תִּזְמוֹרֶת״?",
     "options": [
@@ -6948,7 +6369,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-415",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תָּם״?",
     "options": [
@@ -6960,7 +6380,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-416",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּנוּמָה״?",
     "options": [
@@ -6972,7 +6391,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-417",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תַּעֲנוּג״?",
     "options": [
@@ -6984,7 +6402,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-418",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תַּעֲסוּקָה״?",
     "options": [
@@ -6996,7 +6413,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-419",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תַּעַר״?",
     "options": [
@@ -7008,7 +6424,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-420",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תַּעְתּוּעַ״?",
     "options": [
@@ -7020,7 +6435,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-421",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תָּפוּחַ״?",
     "options": [
@@ -7032,7 +6446,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-422",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תְּשִׁישׁוּת״?",
     "options": [
@@ -7044,7 +6457,6 @@
     "correctIndex": 0
   },
   {
-    "id": "lit-423",
     "type": "trivia",
     "prompt": "מַה פֵּירוּשׁ ״תַּתְרָן״?",
     "options": [
@@ -7056,7 +6468,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-001",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת מִצְרַיִם?",
     "options": [
@@ -7068,7 +6479,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-002",
     "type": "trivia",
     "prompt": "כַּמָּה מֵטְרִים יֵשׁ בְּקִילוֹמֶטֶר אֶחָד?",
     "options": [
@@ -7080,7 +6490,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-003",
     "type": "trivia",
     "prompt": "מָה תַּפְקִידָהּ שֶׁל אַנְטִיבִיוֹטִיקָה?",
     "options": [
@@ -7092,7 +6501,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-004",
     "type": "trivia",
     "prompt": "אֵיךְ קוֹרְאִים לַחֹמֶר שֶׁגּוֹרֵם לְהִשְׁתַּכֵּר וְנִמְצָא בְּמַשְׁקָאוֹת מַשְׁכּוֹרִים?",
     "options": [
@@ -7104,7 +6512,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-005",
     "type": "trivia",
     "prompt": "בְּמָה נִסְמָךְ עָפִיפוֹן שֶׁעָף בַּשָּׁמַיִם?",
     "options": [
@@ -7116,7 +6523,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-006",
     "type": "trivia",
     "prompt": "לְאֵיזוֹ מְדִינָה אֵין גְּבוּל יַבַּשְׁתִּי עִם יִשְׂרָאֵל?",
     "options": [
@@ -7128,7 +6534,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-007",
     "type": "trivia",
     "prompt": "כַּמָּה מְדִינוֹת (מִדִינוֹת) מַרְכִּיבוֹת אֶת אַרְצוֹת הַבְּרִית?",
     "options": [
@@ -7140,7 +6545,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-008",
     "type": "trivia",
     "prompt": "מָהֵם צִבְעֵי דְּגַל סִין?",
     "options": [
@@ -7152,7 +6556,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-009",
     "type": "trivia",
     "prompt": "אֵיזוֹ עִיר יוֹצֵאת דּוֹפֶן מִבֵּין הַבָּאוֹת?",
     "options": [
@@ -7164,7 +6567,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-010",
     "type": "trivia",
     "prompt": "מִי הָיָה רֹאשׁ הַמֶּמְשָׁלָה הָרִאשׁוֹן שֶׁל מְדִינַת יִשְׂרָאֵל?",
     "options": [
@@ -7176,7 +6578,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-011",
     "type": "trivia",
     "prompt": "מָה מְתַקֵּן סַנְדְלָר?",
     "options": [
@@ -7188,7 +6589,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-012",
     "type": "trivia",
     "prompt": "אֵיךְ קוֹרְאִים לַגֶּשֶׁם הָרִאשׁוֹן שֶׁל עוֹנַת הַגְּשָׁמִים?",
     "options": [
@@ -7200,7 +6600,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-013",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ שָׁנָה נוֹסְדָה מְדִינַת יִשְׂרָאֵל?",
     "options": [
@@ -7212,7 +6611,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-014",
     "type": "trivia",
     "prompt": "בְּאֵילוּ עֵצִים הִשְׁתַּמְּשׁוּ רַבּוֹת כְּשֶׁנִּסּוּ לְיַבֵּשׁ בִּצוֹת בְּאֶרֶץ יִשְׂרָאֵל?",
     "options": [
@@ -7224,7 +6622,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-015",
     "type": "trivia",
     "prompt": "מָהִי הָעִיר הַדְּרוֹמִית בְּיוֹתֵר בְּיִשְׂרָאֵל?",
     "options": [
@@ -7236,7 +6633,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-016",
     "type": "trivia",
     "prompt": "מִי הָיָה נְשִׂיא מְדִינַת יִשְׂרָאֵל בִּשְׁנַת אֶלֶף תְּשַׁע מֵאוֹת וּשְׁמוֹנָה־עֶשְׂרֵה?",
     "options": [
@@ -7248,7 +6644,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-017",
     "type": "trivia",
     "prompt": "יָם הַמָּוֶת הוּא שֵׁם נוֹסָף לְ־",
     "options": [
@@ -7260,7 +6655,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-018",
     "type": "trivia",
     "prompt": "אֵיךְ קוֹרְאִים לְיָחִידַת מִדָּה שֶׁמוֹדֶדֶת טֶמְפֶּרָטוּרָה?",
     "options": [
@@ -7272,7 +6666,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-019",
     "type": "trivia",
     "prompt": "בְּאֵיזֶה חֹדֶשׁ חוֹגְגִים אֶת רֹאשׁ הַשָּׁנָה?",
     "options": [
@@ -7284,7 +6677,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-020",
     "type": "trivia",
     "prompt": "חַיִּים נַחְמָן בְּיַאלִיק הָיָה בְּעִיקָּרוֹ —",
     "options": [
@@ -7296,7 +6688,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-021",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ עוֹנָה נֶחְגֶּג חַג הַפֶּסַח?",
     "options": [
@@ -7308,7 +6699,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-022",
     "type": "trivia",
     "prompt": "אֵנֶרְגְיָה סוֹלָרִית פּוֹעֶלֶת בְּעֶזְרַת —",
     "options": [
@@ -7320,7 +6710,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-023",
     "type": "trivia",
     "prompt": "מִי מֵהַבָּאִים נֶחְשָׁב לְצַיָּיר מְפֻרְסָם בְּיוֹתֵר?",
     "options": [
@@ -7332,7 +6721,50 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-024",
+    "type": "trivia",
+    "prompt": "על מה נעה אוהבת לרכב?",
+    "options": [
+      "אופנוע",
+      "חמור",
+      "חד אופן",
+      "גמל"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "type": "trivia",
+    "prompt": "לאיזו חיה האוזניים הכי עגולות?",
+    "options": [
+      "עכבר",
+      "ארנב",
+      "פיל",
+      "חתול"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "type": "trivia",
+    "prompt": "אמיר הוא:",
+    "options": [
+      "תרנגול",
+      "ארנב",
+      "כלב",
+      "עכבר"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "type": "trivia",
+    "prompt": "לעומר יש רגליים של:",
+    "options": [
+      "תרנגול הודו",
+      "תרנגול",
+      "עכברוש",
+      "גרביל חולות"
+    ],
+    "correctIndex": 0
+  },
+  {
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ עוֹנָה חוֹגְגִים אֶת חַג הַחֲנֻכָּה?",
     "options": [
@@ -7344,7 +6776,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-025",
     "type": "trivia",
     "prompt": "בְּאֵיזֶה סוּלָּם מוֹדְדִים עָצְמָה שֶׁל רַעֲדֵי אֲדָמָה?",
     "options": [
@@ -7356,7 +6787,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-026",
     "type": "trivia",
     "prompt": "מִי מֵהַבָּאִים יוֹצֵא דּוֹפֶן מִבֵּין חַיּוֹת אֵלּוּ?",
     "options": [
@@ -7368,7 +6798,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-027",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ עִיר נִמְצָא פֶּסֶל הַחֵרוּת?",
     "options": [
@@ -7380,7 +6809,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-028",
     "type": "trivia",
     "prompt": "יַרְחוֹן הוּא מַגָּזִין שֶׁיוֹצֵא לָאוֹר —",
     "options": [
@@ -7392,7 +6820,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-029",
     "type": "trivia",
     "prompt": "כְּשֶׁאוֹמְרִים בַּדִּבּוּר \"צֶג\" — לְרֹב מִתְכַּוְּנִים לְ־",
     "options": [
@@ -7404,7 +6831,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-030",
     "type": "trivia",
     "prompt": "מָה הַמִּסְפָּר שֶׁמְּחַיְּגִים לַמִּשְׁטָרָה בְּיִשְׂרָאֵל?",
     "options": [
@@ -7416,7 +6842,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-031",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִמְצָא מִגְדַּל אֵיִיפֶּל?",
     "options": [
@@ -7428,7 +6853,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-032",
     "type": "trivia",
     "prompt": "כַּמָּה קִילוֹמֶטְרִים יֵשׁ בְּרִיצַת מָרָתוֹן?",
     "options": [
@@ -7440,7 +6864,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-033",
     "type": "trivia",
     "prompt": "כַּמָּה חֳדָשִׁים יֵשׁ בְּשָׁנָה?",
     "options": [
@@ -7452,7 +6875,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-034",
     "type": "trivia",
     "prompt": "יָם הַמֶּלַח יָדוּעַ גַּם כְּ־",
     "options": [
@@ -7464,7 +6886,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-035",
     "type": "trivia",
     "prompt": "אֵיזֶה חַג אֵינוֹ חַל בַּסְּתָיו?",
     "options": [
@@ -7476,7 +6897,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-036",
     "type": "trivia",
     "prompt": "מִמָּה עֲשׂוּיָה טְחִינָה (מִמַרְכִּיב עִיקָּרִי)?",
     "options": [
@@ -7488,7 +6908,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-037",
     "type": "trivia",
     "prompt": "מִי לֹא כִיהֵן רֹאשׁ מֶמְשָׁלָה בְּיִשְׂרָאֵל?",
     "options": [
@@ -7500,7 +6919,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-038",
     "type": "trivia",
     "prompt": "כַּמָּה יָמִים יֵשׁ בְּשָׁנָה לְיוֹעָזִית רְגִילָה?",
     "options": [
@@ -7512,7 +6930,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-039",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ מְדִינָה נִבְנְתָה חוֹמָה אֲרֻכָּה בְּיוֹתֵר בָּעוֹלָם?",
     "options": [
@@ -7524,7 +6941,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-040",
     "type": "trivia",
     "prompt": "כַּמָּה שָׁעוֹת יֵשׁ בִּימָמָה?",
     "options": [
@@ -7536,7 +6952,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-041",
     "type": "trivia",
     "prompt": "אֵיךְ קוֹרְאִים לַצַּיָּיר שֶׁחָתַךְ אֶת אָזְנוֹ?",
     "options": [
@@ -7548,7 +6963,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-042",
     "type": "trivia",
     "prompt": "אֵיזֶה מַתֶּכֶת יָקָר בְּיוֹתֵר?",
     "options": [
@@ -7560,7 +6974,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-043",
     "type": "trivia",
     "prompt": "מִמָּה עָשׂוּי פּוֹפְקוֹרְן?",
     "options": [
@@ -7572,7 +6985,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-044",
     "type": "trivia",
     "prompt": "בְּאֵיזֶה חֹדֶשׁ יֵשׁ אַרְבָּעָה וְעֶשְׂרִים יָמִים בִּלְבַד (בְּשָׁנָה רְגִילָה)?",
     "options": [
@@ -7584,7 +6996,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-045",
     "type": "trivia",
     "prompt": "לְאֵיזוֹ מְדִינָה הִתְיַיחֲסָה \"פַּלֶּשְׁתִּינָה\" תַּחַת הַמַּנְדָּט הַבְּרִיטִי?",
     "options": [
@@ -7596,7 +7007,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-046",
     "type": "trivia",
     "prompt": "אֵיךְ קוֹרְאִים לְאִישׁ שֶׁחִדֵּשׁ אֶת הַשָּׂפָה הָעִבְרִית הַמּוֹדֶרְנִית?",
     "options": [
@@ -7608,7 +7018,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-047",
     "type": "trivia",
     "prompt": "נְהַר הַנִּילוּס עוֹבֵר גַּם בְּ־",
     "options": [
@@ -7620,7 +7029,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-048",
     "type": "trivia",
     "prompt": "מָה שֵׁם הַגֶּשֶׁם הָאַחֲרוֹן שֶׁל עוֹנַת הַגְּשָׁמִים?",
     "options": [
@@ -7632,7 +7040,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-049",
     "type": "trivia",
     "prompt": "מָהִי הָעִיר הַצְּפוֹנִית בְּיוֹתֵר בְּיִשְׂרָאֵל?",
     "options": [
@@ -7644,7 +7051,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-050",
     "type": "trivia",
     "prompt": "מִי הִמְצִיא אֶת נוּר הַחַשְׁמַל?",
     "options": [
@@ -7656,7 +7062,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-051",
     "type": "trivia",
     "prompt": "בְּאֵיזוֹ יַבֶּשֶׁת נִמְצֵאת מְדִינַת יִשְׂרָאֵל?",
     "options": [
@@ -7668,7 +7073,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-052",
     "type": "trivia",
     "prompt": "מָהוּ סֵמֶל מְדִינַת יִשְׂרָאֵל?",
     "options": [
@@ -7680,7 +7084,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-053",
     "type": "trivia",
     "prompt": "מִי חָתַם עַל מְגִילַּת הָעַצְמָאוּת?",
     "options": [
@@ -7692,7 +7095,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-054",
     "type": "trivia",
     "prompt": "מִי הִמְצִיא אֶת הַטֶּלֶפוֹן?",
     "options": [
@@ -7704,7 +7106,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-055",
     "type": "trivia",
     "prompt": "מָה מֵהַבָּאִים מְיוּצָּר בְּשֵׁם חֶבְרַת אַפֶּל?",
     "options": [
@@ -7716,7 +7117,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-056",
     "type": "trivia",
     "prompt": "עֵרְבּוּב שֶׁל אָדוֹם וְכָּחֹל יוֹצֵר —",
     "options": [
@@ -7728,7 +7128,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-057",
     "type": "trivia",
     "prompt": "עֵרְבּוּב שֶׁל אָדוֹם וְצָהֹב יוֹצֵר —",
     "options": [
@@ -7740,7 +7139,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-058",
     "type": "trivia",
     "prompt": "כַּדּוּר פּוֹרַח מִתְּרוֹמֵם לַשָּׁמַיִם בִּזְכוּת —",
     "options": [
@@ -7752,7 +7150,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-059",
     "type": "trivia",
     "prompt": "כַּמָּה הִיא כַּמּוּת שֶׁמִּתְכַּוְּנִים אֵלֶיהָ בִּמִילָה \"תְּרִיפֶּל\"?",
     "options": [
@@ -7764,7 +7161,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-060",
     "type": "trivia",
     "prompt": "כַּמָּה שָׁנִים מְצַיֵּן \"יוֹבֵל\"?",
     "options": [
@@ -7776,7 +7172,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-061",
     "type": "trivia",
     "prompt": "מָהִי בִּירַת גֶּרְמַנְיָה?",
     "options": [
@@ -7788,7 +7183,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-062",
     "type": "trivia",
     "prompt": "מָהִי בִּירַת צָרְפַת?",
     "options": [
@@ -7800,7 +7194,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-063",
     "type": "trivia",
     "prompt": "מָהִי בִּירַת יַפָּן?",
     "options": [
@@ -7812,7 +7205,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-064",
     "type": "trivia",
     "prompt": "אֵיזוֹ אֶרֶץ צְפוֹנִית יוֹתֵר?",
     "options": [
@@ -7824,7 +7216,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-065",
     "type": "trivia",
     "prompt": "אָתוֹן הִיא הַנְּקֵבָה שֶׁל —",
     "options": [
@@ -7836,7 +7227,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-066",
     "type": "trivia",
     "prompt": "נָאקָה הִיא הַנְּקֵבָה שֶׁל —",
     "options": [
@@ -7848,7 +7238,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-067",
     "type": "trivia",
     "prompt": "מַתֶּכֶת בְּגוֹן אָפוֹר לְרֹב —",
     "options": [
@@ -7860,7 +7249,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-068",
     "type": "trivia",
     "prompt": "דָּבָר שֶׁאֵינוֹ קַיָּם בַּטֶּבַע נִקְרָא —",
     "options": [
@@ -7872,7 +7260,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-069",
     "type": "trivia",
     "prompt": "מֵהַבָּאִים נֶחְשָׁב כְּלִי תְּחַבּוּרָה?",
     "options": [
@@ -7884,7 +7271,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-070",
     "type": "trivia",
     "prompt": "מִי עָמַד בְּרֹאשׁ חֶבְרַת אַפֶּל לְאוֹרֶךְ שָׁנִים רַבּוֹת?",
     "options": [
@@ -7896,7 +7282,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-071",
     "type": "trivia",
     "prompt": "עַל מָה זָכָה אַלְפֶּרֶד נוֹבֶּל בְּעִיקָּרוֹ (וְשָׁם הַפְּרָס)?",
     "options": [
@@ -7908,7 +7293,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-072",
     "type": "trivia",
     "prompt": "בְּמָה יָדוּעִים הָאַחִים רַיְיט?",
     "options": [
@@ -7920,7 +7304,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-073",
     "type": "trivia",
     "prompt": "מִי הָיָה ווֹלְפְגַנְג אַמָּדֶאוּס מוֹצַרְט?",
     "options": [
@@ -7932,7 +7315,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-074",
     "type": "trivia",
     "prompt": "אֵיזֶה חֹדֶשׁ בָּא מִיָּד אַחֲרֵי מַרְץ?",
     "options": [
@@ -7944,7 +7326,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-075",
     "type": "trivia",
     "prompt": "אֵיזֶה חֹדֶשׁ בָּא מִיָּד אַחֲרֵי דֵּצֶמְבֶּר?",
     "options": [
@@ -7956,7 +7337,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-076",
     "type": "trivia",
     "prompt": "אֵיזוֹ עוֹנָה מַגִּיעָה מִיָּד אַחֲרֵי הַקַּיִץ?",
     "options": [
@@ -7968,7 +7348,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-077",
     "type": "trivia",
     "prompt": "אֵיזוֹ עִיר נִמְצֵאת בַּנֶּגֶב?",
     "options": [
@@ -7980,7 +7359,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-078",
     "type": "trivia",
     "prompt": "הֵיכָן הֶכְנֵעָה לְהַנִּיחַ שֶׁיִּשְׁכּוֹן חַקְלָאִי?",
     "options": [
@@ -7992,7 +7370,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-079",
     "type": "trivia",
     "prompt": "מָה עוֹשֶׂה חַיָּט?",
     "options": [
@@ -8004,7 +7381,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-080",
     "type": "trivia",
     "prompt": "בְּמָה מִתְעַסֵּק צוֹרֵף?",
     "options": [
@@ -8016,7 +7392,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-081",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ דּוֹמָה לְשָׁאָר הַמִּילִים?",
     "options": [
@@ -8028,7 +7403,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-082",
     "type": "trivia",
     "prompt": "מָה פֵּירוּשׁ הַמִּילָה \"קֵץ\"?",
     "options": [
@@ -8040,7 +7414,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-083",
     "type": "trivia",
     "prompt": "מָה פֵּירוּשׁ הַמִּילָה \"סָרַב\"?",
     "options": [
@@ -8052,7 +7425,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-084",
     "type": "trivia",
     "prompt": "מָה פֵּירוּשׁ הַמִּילָה \"שָׁגָה\"?",
     "options": [
@@ -8064,7 +7436,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-085",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ בְּאוֹתוֹ מַשְׁמָעוּת כְּמוֹ \"רָזֶה\"?",
     "options": [
@@ -8076,7 +7447,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-086",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"צַח\" הִיא —",
     "options": [
@@ -8088,7 +7458,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-087",
     "type": "trivia",
     "prompt": "כְּשֶׁאוֹמְרִים \"שַׁחַר\" — לְרֹב מִתְכַּוְּנִים לְ־",
     "options": [
@@ -8100,7 +7469,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-088",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"רָם\" הִיא —",
     "options": [
@@ -8112,7 +7480,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-089",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"לִקְט\" הִיא —",
     "options": [
@@ -8124,7 +7491,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-090",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ דּוֹמָה לִשְׁאָר הַמִּילִים?",
     "options": [
@@ -8136,7 +7502,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-091",
     "type": "trivia",
     "prompt": "מָה הַ\"בִּיג בֶּן\" בְּלוֹנְדּוֹן?",
     "options": [
@@ -8148,7 +7513,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-092",
     "type": "trivia",
     "prompt": "אֵיזוֹ מְדִינָה נִמְצֵאת בַּגְּבוּל הַצְּפוֹנִי שֶׁל יִשְׂרָאֵל?",
     "options": [
@@ -8160,7 +7524,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-093",
     "type": "trivia",
     "prompt": "לְאֵיזוֹ עִיר אֵין חוֹף יָם?",
     "options": [
@@ -8172,7 +7535,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-094",
     "type": "trivia",
     "prompt": "מֵאֵיזֶה כִּוּוּן זוֹרַחַת הַשֶּׁמֶשׁ?",
     "options": [
@@ -8184,7 +7546,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-095",
     "type": "trivia",
     "prompt": "לְאֵיזֶה כִּוּוּן שׁוֹקַעַת הַשֶּׁמֶשׁ?",
     "options": [
@@ -8196,7 +7557,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-096",
     "type": "trivia",
     "prompt": "אֵיזוֹ עִיר אֵינָהּ נֶחְשֶׁבֶת עִיר קְדוֹשָׁה לְעַמִּים רַבִּים?",
     "options": [
@@ -8208,7 +7568,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-097",
     "type": "trivia",
     "prompt": "לֵאָה גּוֹלְדְבֶּרְג הָיְתָה בְּעִיקָּרוֹ —",
     "options": [
@@ -8220,7 +7579,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-098",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"מְלַמֵּד\" הִיא —",
     "options": [
@@ -8232,7 +7590,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-099",
     "type": "trivia",
     "prompt": "מָה פֵּירוּשׁ הַמִּילָה \"מְשׁוּבָּח\"?",
     "options": [
@@ -8244,7 +7601,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-100",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"חַמָּה\" הִיא —",
     "options": [
@@ -8256,7 +7612,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-101",
     "type": "trivia",
     "prompt": "מָה פֵּירוּשׁ הַמִּילָה \"הִשְׁתּוֹקֵק\"?",
     "options": [
@@ -8268,7 +7623,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-102",
     "type": "trivia",
     "prompt": "מָה פֵּירוּשׁ הַמִּילָה \"מְחוֹלוֹת\"?",
     "options": [
@@ -8280,7 +7634,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-103",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה נִרְדֶּפֶת לְ\"נֶחְרָד\"?",
     "options": [
@@ -8292,7 +7645,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-104",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"צָרִיךְ\" הִיא —",
     "options": [
@@ -8304,7 +7656,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-105",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"עָבַד\" הִיא —",
     "options": [
@@ -8316,7 +7667,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-106",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"אוֹצָר\" הִיא —",
     "options": [
@@ -8328,7 +7678,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-107",
     "type": "trivia",
     "prompt": "מָה פֵּירוּשׁ הַמִּילָה \"נָזִיד\"?",
     "options": [
@@ -8340,7 +7689,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-108",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"רָכֵן\" הִיא —",
     "options": [
@@ -8352,7 +7700,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-109",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"הִתְחַבְּט\" הִיא —",
     "options": [
@@ -8364,7 +7711,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-110",
     "type": "trivia",
     "prompt": "מָה פֵּירוּשׁ הַמִּילָה \"אַרְגָּמָן\"?",
     "options": [
@@ -8376,7 +7722,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-111",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ דּוֹמָה לִשְׁאָר הַמִּילִים?",
     "options": [
@@ -8388,7 +7733,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-112",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"תִּכְשִׁיט\" הִיא —",
     "options": [
@@ -8400,7 +7744,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-113",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ שֵׁם פְּרָטִי נָפוּץ?",
     "options": [
@@ -8412,7 +7755,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-114",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ דּוֹמָה לִשְׁאָר הַמִּילִים?",
     "options": [
@@ -8424,7 +7766,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-115",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"אֶבְיוֹן\" הִיא —",
     "options": [
@@ -8436,7 +7777,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-116",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"אֲפֵלָה\" הִיא —",
     "options": [
@@ -8448,7 +7788,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-117",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"גִיל\" הִיא —",
     "options": [
@@ -8460,7 +7799,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-118",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"נָטַל\" הִיא —",
     "options": [
@@ -8472,7 +7810,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-119",
     "type": "trivia",
     "prompt": "מִילָה מְנוּגֶּדֶת לְ\"בָּהִיר\" הִיא —",
     "options": [
@@ -8484,7 +7821,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-120",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ דּוֹמָה לִשְׁאָר הַמִּילִים?",
     "options": [
@@ -8496,7 +7832,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-121",
     "type": "trivia",
     "prompt": "כְּשֶׁאוֹמְרִים \"אֶמֶשׁ\" — מִתְכַּוְּנִים לְ־",
     "options": [
@@ -8508,7 +7843,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-122",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ דּוֹמָה לִשְׁאָר הַמִּילִים?",
     "options": [
@@ -8520,7 +7854,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-123",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"הִשְׁתּוֹמֵם\" הִיא —",
     "options": [
@@ -8532,7 +7865,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-124",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"קְטָטָה\" הִיא —",
     "options": [
@@ -8544,7 +7876,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-125",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ דּוֹמָה לִשְׁאָר הַמִּילִים?",
     "options": [
@@ -8556,7 +7887,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-126",
     "type": "trivia",
     "prompt": "מִילָה נִרְדֶּפֶת לְ\"נַחְשׁוֹל\" הִיא —",
     "options": [
@@ -8568,7 +7898,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-127",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ דּוֹמָה לִשְׁאָר הַמִּילִים?",
     "options": [
@@ -8580,7 +7909,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-128",
     "type": "trivia",
     "prompt": "מִילָה מְנוּגֶּדֶת לְ\"חַד\" הִיא —",
     "options": [
@@ -8592,7 +7920,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-129",
     "type": "trivia",
     "prompt": "כְּשֶׁאוֹמְרִים עַל מִישֶׁהוּ \"דַּל אֵמְצָעִים\" — מִתְכַּוְּנִים שֶׁהוּא —",
     "options": [
@@ -8604,7 +7931,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-130",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה מְתַאֶּרֶת אֶת הַמִּילָה \"אִגֶּרֶת\"?",
     "options": [
@@ -8616,7 +7942,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-131",
     "type": "trivia",
     "prompt": "מָה פֵּירוּשׁ הַבִּטּוּי \"מוּג לֵב\"?",
     "options": [
@@ -8628,7 +7953,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-132",
     "type": "trivia",
     "prompt": "אֵיזוֹ מִילָה אֵינָהּ דּוֹמָה לִשְׁאָר הַמִּילִים?",
     "options": [
@@ -8640,7 +7964,6 @@
     "correctIndex": 0
   },
   {
-    "id": "stg-133",
     "type": "trivia",
     "prompt": "מָה מְצַיֵּן כַּמּוּת דּוֹמָה לְ\"צְמָד\"?",
     "options": [

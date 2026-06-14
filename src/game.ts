@@ -1,13 +1,19 @@
 import confetti from 'canvas-confetti'
 import type { Question } from './types.ts'
 import { isQuestion } from './types.ts'
-import { playClick, playCorrect, playCorrectHalf, playWin200, playWrong, resumeAudio } from './sounds.ts'
+import { playClick, playCorrect, playCorrectHalf, playWin200, playWrong, playWrongFinal, resumeAudio } from './sounds.ts'
 
 const MUTE_KEY = 'trivia-muted'
 /** אַחֲרֵי תְּשׁוּבָה נְכוֹנָה */
 const AUTO_ADVANCE_AFTER_CORRECT_MS = 3000
-/** אַחֲרֵי גִּלּוּי תְּשׁוּבָה (שְׁתֵּי טָעוּיוֹת) — קְצַת יוֹתֵר זְמַן לִקְרֹא */
-const AUTO_ADVANCE_AFTER_REVEAL_MS = 5000
+/** אַחֲרֵי גִּלּוּי תְּשׁוּבָה (שְׁתֵּי טָעוּיוֹת) — לְפָחוֹת שֶׁבַע שְׁנִיּוֹת לִקְרֹא */
+const AUTO_ADVANCE_AFTER_REVEAL_MS = 7000
+/** לִפְנֵי שֶׁמַּפְשִׁיטִים שׁוּב נִסּוּיוֹן אַחֲרֵי טָעוּת רִאשׁוֹנָה */
+const DELAY_BEFORE_RETRY_MS = 5000
+/** כַּמָּה שְׁאֵלוֹת עַד לְהַצְגָּה חוֹזֶרֶת שֶׁל שְׁאֵלָה שֶׁהָיְתָה בָּהּ טָעוּת */
+const RETRY_SAME_QUESTION_AFTER = 3
+/** נִקּוּד שֶׁמּוּסָר עַל כָּל טָעוּת */
+const WRONG_PENALTY_POINTS = 5
 
 type TargetScore = 100 | 200 | 300
 type Phase = 'loading' | 'error' | 'splash' | 'answering' | 'wrong' | 'correct' | 'revealed'
@@ -33,7 +39,7 @@ const UI = {
   revealedCaption: 'הִנֵּה הַתְּשׁוּבָה הַנְּכוֹנָה:',
   next: 'שְׁאֵלָה הַבָּאָה',
   autoNextAfterCorrect: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ שָׁלוֹשׁ שְׁנִיּוֹת…',
-  autoNextAfterReveal: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ חָמֵשׁ שְׁנִיּוֹת…',
+  autoNextAfterReveal: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ שֶׁבַע שְׁנִיּוֹת…',
   winSub: 'כָּל הַכָּבוֹד!',
   /** חֲזָרָה לִבְחִירַת רָמָה — גַּם מֵעַל שְׁכֶבֶת הַנִּצָּחוֹן */
   home: 'לַמָּסָך הָרֹאשִׁי',
@@ -111,13 +117,18 @@ export function mountGame(root: HTMLElement): () => void {
   let phase: Phase = 'loading'
   let muted = loadMuted()
   let advanceTimer: ReturnType<typeof setTimeout> | null = null
+  let wrongRetryIntervalId: ReturnType<typeof setInterval> | null = null
+  /** זְמַן (מֵחֲזִית Date.now()) שֶׁבּוֹ נִפְתַּח כּוֹפֶת «נָסוּ שׁוּב» אַחֲרֵי טָעוּת רִאשׁוֹנָה */
+  let wrongRetryUnlockAt = 0
+  /** הָאִם בַּשְׁאֵלָה הַנּוֹכְחִית הָיְתָה לְפָחוֹת טָעוּת אַחַת לִפְנֵי מַעֲבָר לַשְּׁאֵלָה הַבָּאָה */
+  let currentQuestionHadWrong = false
 
   /** סֵדֶר הַצָּגָה: אֵינְדֶקְסִים מְקוֹרִיִּים 0–3 */
   let optionOrder: [number, number, number, number] = [0, 1, 2, 3]
   let displayCorrectIndex = 0
   let wrongCount = 0
   let lastWrongDisplayIndex: number | null = null
-  let pendingPointsPop: null | { amount: 5 | 10 } = null
+  let pendingPointsPop: null | { amount: 5 | 10 | -5 } = null
 
   const el = document.createElement('div')
   el.className = 'game'
@@ -127,6 +138,13 @@ export function mountGame(root: HTMLElement): () => void {
     if (advanceTimer !== null) {
       clearTimeout(advanceTimer)
       advanceTimer = null
+    }
+  }
+
+  const clearWrongRetryTicker = () => {
+    if (wrongRetryIntervalId !== null) {
+      clearInterval(wrongRetryIntervalId)
+      wrongRetryIntervalId = null
     }
   }
 
@@ -141,6 +159,7 @@ export function mountGame(root: HTMLElement): () => void {
   const goToHome = () => {
     void resumeAudio()
     playClick(muted)
+    clearWrongRetryTicker()
     clearAdvance()
     document.querySelectorAll('.win-overlay').forEach((n) => n.remove())
     score = 0
@@ -156,7 +175,8 @@ export function mountGame(root: HTMLElement): () => void {
 
   /** @returns true אִם הִגַּעְנוּ לְיַעַד הָרָמָה */
   const addScore = (delta: number): boolean => {
-    const next = Math.min(targetScore, score + delta)
+    const raw = score + delta
+    const next = Math.min(targetScore, Math.max(0, raw))
     const hitCap = next === targetScore && score < targetScore
     score = next
     if (hitCap) fireWinComplete()
@@ -165,6 +185,7 @@ export function mountGame(root: HTMLElement): () => void {
 
   /** נִשׁאָר עַד לְחִיצָה עַל «לַמָּסָך הָרֹאשִׁי» — לְלֹא סְגִירָה אוֹטוֹמָטִית */
   const fireWinComplete = () => {
+    clearWrongRetryTicker()
     clearAdvance()
     playWin200(muted)
     const mult = targetScore === 300 ? 1.4 : targetScore === 200 ? 1 : 0.75
@@ -202,12 +223,31 @@ export function mountGame(root: HTMLElement): () => void {
     displayCorrectIndex = ord.indexOf(q.correctIndex)
     wrongCount = 0
     lastWrongDisplayIndex = null
+    currentQuestionHadWrong = false
   }
 
   const goNext = () => {
+    clearWrongRetryTicker()
     clearAdvance()
     if (questions.length === 0) return
-    qIndex = (qIndex + 1) % questions.length
+    const hadWrong = currentQuestionHadWrong
+    const finishedIndex = qIndex
+    const qFinished = questions[finishedIndex]
+    const oldLen = questions.length
+    let nextIndex = (finishedIndex + 1) % oldLen
+
+    if (hadWrong && qFinished) {
+      const pos = finishedIndex + 1 + RETRY_SAME_QUESTION_AFTER
+      const copy: Question = { ...qFinished }
+      if (pos >= oldLen) {
+        questions.push(copy)
+      } else {
+        questions.splice(pos, 0, copy)
+        if (pos <= nextIndex) nextIndex += 1
+      }
+    }
+
+    qIndex = nextIndex % questions.length
     prepareQuestion()
     phase = 'answering'
     pendingPointsPop = null
@@ -217,6 +257,7 @@ export function mountGame(root: HTMLElement): () => void {
   const startLevel = (t: TargetScore) => {
     void resumeAudio()
     playClick(muted)
+    clearWrongRetryTicker()
     targetScore = t
     score = 0
     qIndex = 0
@@ -315,6 +356,23 @@ export function mountGame(root: HTMLElement): () => void {
     barTrack.appendChild(barFill)
     barWrap.appendChild(barLabel)
     barWrap.appendChild(barTrack)
+    const popFlash = pendingPointsPop
+    if (popFlash) {
+      const floater = document.createElement('div')
+      floater.setAttribute('role', 'status')
+      if (popFlash.amount === -5) {
+        floater.className = 'points-pop points-pop--penalty'
+        floater.textContent = '-5'
+      } else if (popFlash.amount === 10) {
+        floater.className = 'points-pop points-pop--full'
+        floater.textContent = '+10'
+      } else {
+        floater.className = 'points-pop points-pop--half'
+        floater.textContent = '+5'
+      }
+      barWrap.appendChild(floater)
+      pendingPointsPop = null
+    }
     el.appendChild(barWrap)
 
     if (!q || !displayLabels) {
@@ -364,12 +422,29 @@ export function mountGame(root: HTMLElement): () => void {
       }
       wrongCount += 1
       lastWrongDisplayIndex = displayIdx
-      playWrong(muted)
+      currentQuestionHadWrong = true
+      pendingPointsPop = { amount: -5 }
+      addScore(-WRONG_PENALTY_POINTS)
       if (wrongCount >= 2) {
+        clearWrongRetryTicker()
+        playWrongFinal(muted)
         phase = 'revealed'
         render()
         scheduleAdvance(AUTO_ADVANCE_AFTER_REVEAL_MS)
       } else {
+        playWrong(muted)
+        clearWrongRetryTicker()
+        wrongRetryUnlockAt = Date.now() + DELAY_BEFORE_RETRY_MS
+        wrongRetryIntervalId = window.setInterval(() => {
+          if (phase !== 'wrong') {
+            clearWrongRetryTicker()
+            return
+          }
+          if (Date.now() >= wrongRetryUnlockAt) {
+            clearWrongRetryTicker()
+          }
+          render()
+        }, 350)
         phase = 'wrong'
         render()
       }
@@ -404,13 +479,24 @@ export function mountGame(root: HTMLElement): () => void {
       feedback.className = 'feedback feedback-wrong'
       feedback.textContent = UI.wrong
       main.appendChild(feedback)
+      const canRetry = Date.now() >= wrongRetryUnlockAt
+      if (!canRetry) {
+        const wait = document.createElement('p')
+        wait.className = 'auto-hint'
+        const secs = Math.max(1, Math.ceil((wrongRetryUnlockAt - Date.now()) / 1000))
+        wait.textContent = `עוֹד ${secs} שְׁנִיּוֹת וְאָז אֶפְשָׁר לִנְסוֹת שׁוּב…`
+        main.appendChild(wait)
+      }
       const retry = document.createElement('button')
       retry.type = 'button'
       retry.className = 'btn btn-secondary btn-large'
       retry.textContent = UI.tryAgain
+      retry.disabled = !canRetry
       retry.addEventListener('click', () => {
+        if (!canRetry) return
         void resumeAudio()
         playClick(muted)
+        clearWrongRetryTicker()
         phase = 'answering'
         lastWrongDisplayIndex = null
         render()
@@ -440,16 +526,6 @@ export function mountGame(root: HTMLElement): () => void {
     }
 
     if (phase === 'correct') {
-      const pop = pendingPointsPop
-      if (pop) {
-        const floater = document.createElement('div')
-        floater.className = pop.amount === 10 ? 'points-pop points-pop--full' : 'points-pop points-pop--half'
-        floater.setAttribute('role', 'status')
-        floater.textContent = pop.amount === 10 ? '+10' : '+5'
-        barWrap.appendChild(floater)
-        pendingPointsPop = null
-      }
-
       const feedback = document.createElement('div')
       feedback.className = 'feedback feedback-correct'
       feedback.textContent = UI.correct
@@ -495,6 +571,7 @@ export function mountGame(root: HTMLElement): () => void {
   })()
 
   return () => {
+    clearWrongRetryTicker()
     clearAdvance()
     document.querySelectorAll('.win-overlay').forEach((n) => n.remove())
     el.remove()
