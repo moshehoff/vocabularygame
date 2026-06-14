@@ -1,6 +1,8 @@
 import confetti from 'canvas-confetti'
 import type { Question } from './types.ts'
 import { isQuestion } from './types.ts'
+import { sendSessionReportEmail } from './emailReport.ts'
+import type { PlayerId, WrongChoiceLine } from './emailReport.ts'
 import { playClick, playCorrect, playCorrectHalf, playWin200, playWrong, playWrongFinal, resumeAudio } from './sounds.ts'
 
 const MUTE_KEY = 'trivia-muted'
@@ -16,11 +18,14 @@ const RETRY_SAME_QUESTION_AFTER = 3
 const WRONG_PENALTY_POINTS = 5
 
 type TargetScore = 100 | 200 | 300
-type Phase = 'loading' | 'error' | 'splash' | 'answering' | 'wrong' | 'correct' | 'revealed'
+type Phase = 'loading' | 'error' | 'pickName' | 'splash' | 'answering' | 'wrong' | 'correct' | 'revealed'
 
 /** מַחְרוּזוֹת מַמְשָׁק — מְנוּקָּדוֹת */
 const UI = {
   title: 'אוֹצַר מִילִים וּפִתְגָמִים',
+  choosePlayer: 'מִי מְשַׂחֵק/ת?',
+  nameNoa: 'נעה',
+  nameEdo: 'עדו',
   chooseLevel: 'בְּחִירַת רָמָה:',
   levelEasy: 'לִמְתַחִילִים 100',
   levelMid: 'בֵּינוֹנִי 200',
@@ -115,6 +120,11 @@ export function mountGame(root: HTMLElement): () => void {
   let score = 0
   let targetScore: TargetScore = 100
   let phase: Phase = 'loading'
+  let playerId: PlayerId | null = null
+  /** תְּשׁוּבוֹת שְׁגוּיוֹת שֶׁנִבְחֲרוּ (לְדוּחַ אִימֵייל) */
+  let wrongLog: WrongChoiceLine[] = []
+  /** כמה פעמים נִלְחֲצָה תְּשׁוּבָה נְכוֹנָה בַּמַּחֲזוֹר הַנּוֹכְחִי (מֵאָז בְּחִירַת רָמָה) */
+  let correctAnswersCount = 0
   let muted = loadMuted()
   let advanceTimer: ReturnType<typeof setTimeout> | null = null
   let wrongRetryIntervalId: ReturnType<typeof setInterval> | null = null
@@ -156,14 +166,37 @@ export function mountGame(root: HTMLElement): () => void {
     }, delayMs)
   }
 
+  const flushSessionReport = (opts?: { keepalive?: boolean }) => {
+    if (!playerId) return
+    const active =
+      phase === 'answering' ||
+      phase === 'wrong' ||
+      phase === 'correct' ||
+      phase === 'revealed'
+    if (!active) return
+    if (wrongLog.length === 0 && correctAnswersCount === 0) return
+    const wrongSnapshot = wrongLog.slice()
+    wrongLog.length = 0
+    const correctSnapshot = correctAnswersCount
+    correctAnswersCount = 0
+    sendSessionReportEmail(
+      playerId,
+      { wrongLines: wrongSnapshot, correctCount: correctSnapshot },
+      opts,
+    )
+  }
+
   const goToHome = () => {
     void resumeAudio()
     playClick(muted)
+    flushSessionReport({ keepalive: false })
     clearWrongRetryTicker()
     clearAdvance()
     document.querySelectorAll('.win-overlay').forEach((n) => n.remove())
     score = 0
     phase = 'splash'
+    wrongLog = []
+    correctAnswersCount = 0
     qIndex = 0
     pendingPointsPop = null
     if (questions.length) {
@@ -187,6 +220,7 @@ export function mountGame(root: HTMLElement): () => void {
   const fireWinComplete = () => {
     clearWrongRetryTicker()
     clearAdvance()
+    flushSessionReport({ keepalive: true })
     playWin200(muted)
     const mult = targetScore === 300 ? 1.4 : targetScore === 200 ? 1 : 0.75
     confetti({ particleCount: Math.round(120 * mult), spread: 70, origin: { y: 0.55, x: 0.2 } })
@@ -258,6 +292,8 @@ export function mountGame(root: HTMLElement): () => void {
     void resumeAudio()
     playClick(muted)
     clearWrongRetryTicker()
+    wrongLog = []
+    correctAnswersCount = 0
     targetScore = t
     score = 0
     qIndex = 0
@@ -266,6 +302,21 @@ export function mountGame(root: HTMLElement): () => void {
     pendingPointsPop = null
     render()
   }
+
+  const pickPlayer = (id: PlayerId) => {
+    void resumeAudio()
+    playClick(muted)
+    playerId = id
+    phase = 'splash'
+    render()
+  }
+
+  const onPageHide = (ev: Event) => {
+    const e = ev as PageTransitionEvent
+    if (e.persisted) return
+    flushSessionReport({ keepalive: true })
+  }
+  window.addEventListener('pagehide', onPageHide)
 
   const render = () => {
     const q = currentQ()
@@ -282,7 +333,7 @@ export function mountGame(root: HTMLElement): () => void {
     const tools = document.createElement('div')
     tools.className = 'game-tools'
 
-    if (phase !== 'loading' && phase !== 'splash' && phase !== 'error') {
+    if (phase !== 'loading' && phase !== 'splash' && phase !== 'pickName' && phase !== 'error') {
       const homeHeaderBtn = document.createElement('button')
       homeHeaderBtn.type = 'button'
       homeHeaderBtn.className = 'btn btn-ghost btn-home'
@@ -304,7 +355,7 @@ export function mountGame(root: HTMLElement): () => void {
     header.appendChild(tools)
     el.appendChild(header)
 
-    if (phase === 'loading' || phase === 'splash' || phase === 'error') {
+    if (phase === 'loading' || phase === 'splash' || phase === 'pickName' || phase === 'error') {
       const main = document.createElement('main')
       main.className = 'game-main game-center'
       if (phase === 'loading') {
@@ -317,6 +368,24 @@ export function mountGame(root: HTMLElement): () => void {
         p.className = 'game-error'
         p.textContent = UI.loadError
         main.appendChild(p)
+      } else if (phase === 'pickName') {
+        const sub = document.createElement('p')
+        sub.className = 'splash-sub'
+        sub.textContent = UI.choosePlayer
+        main.appendChild(sub)
+        const row = document.createElement('div')
+        row.className = 'level-row'
+        const mkName = (label: string, id: PlayerId) => {
+          const b = document.createElement('button')
+          b.type = 'button'
+          b.className = 'btn btn-primary btn-large btn-level'
+          b.textContent = label
+          b.addEventListener('click', () => pickPlayer(id))
+          row.appendChild(b)
+        }
+        mkName(UI.nameNoa, 'noa')
+        mkName(UI.nameEdo, 'edo')
+        main.appendChild(row)
       } else {
         const sub = document.createElement('p')
         sub.className = 'splash-sub'
@@ -414,6 +483,7 @@ export function mountGame(root: HTMLElement): () => void {
         } else {
           playCorrectHalf(muted)
         }
+        correctAnswersCount += 1
         const hitCap = addScore(pts)
         phase = 'correct'
         render()
@@ -423,6 +493,7 @@ export function mountGame(root: HTMLElement): () => void {
       wrongCount += 1
       lastWrongDisplayIndex = displayIdx
       currentQuestionHadWrong = true
+      wrongLog.push({ prompt: q.prompt, chosen: displayLabels[displayIdx] })
       pendingPointsPop = { amount: -5 }
       addScore(-WRONG_PENALTY_POINTS)
       if (wrongCount >= 2) {
@@ -562,7 +633,7 @@ export function mountGame(root: HTMLElement): () => void {
   void (async () => {
     try {
       questions = shuffle(await fetchQuestions())
-      phase = questions.length ? 'splash' : 'error'
+      phase = questions.length ? 'pickName' : 'error'
       if (questions.length) prepareQuestion()
     } catch {
       phase = 'error'
@@ -571,6 +642,7 @@ export function mountGame(root: HTMLElement): () => void {
   })()
 
   return () => {
+    window.removeEventListener('pagehide', onPageHide)
     clearWrongRetryTicker()
     clearAdvance()
     document.querySelectorAll('.win-overlay').forEach((n) => n.remove())
