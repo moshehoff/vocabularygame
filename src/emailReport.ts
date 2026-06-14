@@ -2,7 +2,7 @@
 export type PlayerId = 'noa' | 'edo'
 
 const RECIPIENT: Record<PlayerId, string> = {
-  noa: 'tirza01@hotmail.co.il',
+  noa: 'tirza01@hotmail.com',
   edo: 'moshe.hoffman@gmail.com',
 }
 
