@@ -3,7 +3,15 @@ import type { Question } from './types.ts'
 import { isQuestion } from './types.ts'
 import { sendSessionReportEmail } from './emailReport.ts'
 import type { PlayerId, WrongChoiceLine } from './emailReport.ts'
-import { playClick, playCorrect, playCorrectHalf, playWin200, playWrong, playWrongFinal, resumeAudio } from './sounds.ts'
+import {
+  playClick,
+  playCorrectHalfRandom,
+  playCorrectRandom,
+  playWin200,
+  playWrongFinalRandom,
+  playWrongRandom,
+  resumeAudio,
+} from './sounds.ts'
 
 const MUTE_KEY = 'trivia-muted'
 /** אַחֲרֵי תְּשׁוּבָה נְכוֹנָה */
@@ -26,6 +34,7 @@ const UI = {
   choosePlayer: 'מִי מְשַׂחֵק/ת?',
   nameNoa: 'נעה',
   nameEdo: 'עדו',
+  nameGuy: 'גיא',
   chooseLevel: 'בְּחִירַת רָמָה:',
   levelEasy: 'לִמְתַחִילִים 100',
   levelMid: 'בֵּינוֹנִי 200',
@@ -45,6 +54,7 @@ const UI = {
   next: 'שְׁאֵלָה הַבָּאָה',
   autoNextAfterCorrect: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ שָׁלוֹשׁ שְׁנִיּוֹת…',
   autoNextAfterReveal: 'הַשְּׁאֵלָה הַבָּאָה תִיטָּעֵן אוֹטוֹמָטִית תּוֹךְ שֶׁבַע שְׁנִיּוֹת…',
+  waitBeforeNext: 'עוֹד {n} שְׁנִיּוֹת וְאָז אֶפְשָׁר לְהַמְשִׁיךְ…',
   winSub: 'כָּל הַכָּבוֹד!',
   /** חֲזָרָה לִבְחִירַת רָמָה — גַּם מֵעַל שְׁכֶבֶת הַנִּצָּחוֹן */
   home: 'לַמָּסָך הָרֹאשִׁי',
@@ -114,6 +124,25 @@ function hintForType(t: Question['type']): string {
   return UI.triviaHint
 }
 
+const SUCCESS_EFFECTS: (() => void)[] = [
+  () => confetti({ particleCount: 55, spread: 62, origin: { y: 0.72, x: 0.5 }, startVelocity: 28, ticks: 90 }),
+  () => {
+    confetti({ particleCount: 40, spread: 55, origin: { y: 0.65, x: 0.25 }, startVelocity: 32, ticks: 80 })
+    confetti({ particleCount: 40, spread: 55, origin: { y: 0.65, x: 0.75 }, startVelocity: 32, ticks: 80 })
+  },
+  () => confetti({ particleCount: 70, spread: 100, origin: { y: 0.35, x: 0.5 }, startVelocity: 22, ticks: 100, gravity: 0.9 }),
+  () => confetti({ particleCount: 45, spread: 40, origin: { y: 0.85, x: 0.5 }, startVelocity: 18, ticks: 70, scalar: 0.9 }),
+  () => {
+    confetti({ particleCount: 25, spread: 50, origin: { y: 0.6, x: 0.35 }, startVelocity: 26, ticks: 75 })
+    confetti({ particleCount: 25, spread: 50, origin: { y: 0.6, x: 0.5 }, startVelocity: 26, ticks: 75 })
+    confetti({ particleCount: 25, spread: 50, origin: { y: 0.6, x: 0.65 }, startVelocity: 26, ticks: 75 })
+  },
+]
+
+function fireRandomSuccessEffect(): void {
+  SUCCESS_EFFECTS[Math.floor(Math.random() * SUCCESS_EFFECTS.length)]()
+}
+
 export function mountGame(root: HTMLElement): () => void {
   let questions: Question[] = []
   let qIndex = 0
@@ -156,6 +185,20 @@ export function mountGame(root: HTMLElement): () => void {
       clearInterval(wrongRetryIntervalId)
       wrongRetryIntervalId = null
     }
+  }
+
+  const startUnlockTicker = (untilPhase: 'wrong' | 'revealed') => {
+    clearWrongRetryTicker()
+    wrongRetryIntervalId = window.setInterval(() => {
+      if (phase !== untilPhase) {
+        clearWrongRetryTicker()
+        return
+      }
+      if (Date.now() >= wrongRetryUnlockAt) {
+        clearWrongRetryTicker()
+      }
+      render()
+    }, 350)
   }
 
   const scheduleAdvance = (delayMs: number) => {
@@ -385,6 +428,7 @@ export function mountGame(root: HTMLElement): () => void {
         }
         mkName(UI.nameNoa, 'noa')
         mkName(UI.nameEdo, 'edo')
+        mkName(UI.nameGuy, 'guy')
         main.appendChild(row)
       } else {
         const sub = document.createElement('p')
@@ -476,12 +520,11 @@ export function mountGame(root: HTMLElement): () => void {
         const pts: 5 | 10 = wrongCount === 0 ? 10 : 5
         pendingPointsPop = { amount: pts }
         if (pts === 10) {
-          playCorrect(muted)
-          if (!muted) {
-            confetti({ particleCount: 55, spread: 62, origin: { y: 0.72, x: 0.5 }, startVelocity: 28, ticks: 90 })
-          }
+          playCorrectRandom(muted)
+          if (!muted) fireRandomSuccessEffect()
         } else {
-          playCorrectHalf(muted)
+          playCorrectHalfRandom(muted)
+          if (!muted) fireRandomSuccessEffect()
         }
         correctAnswersCount += 1
         const hitCap = addScore(pts)
@@ -497,25 +540,16 @@ export function mountGame(root: HTMLElement): () => void {
       pendingPointsPop = { amount: -5 }
       addScore(-WRONG_PENALTY_POINTS)
       if (wrongCount >= 2) {
-        clearWrongRetryTicker()
-        playWrongFinal(muted)
+        playWrongFinalRandom(muted)
+        wrongRetryUnlockAt = Date.now() + DELAY_BEFORE_RETRY_MS
+        startUnlockTicker('revealed')
         phase = 'revealed'
         render()
         scheduleAdvance(AUTO_ADVANCE_AFTER_REVEAL_MS)
       } else {
-        playWrong(muted)
-        clearWrongRetryTicker()
+        playWrongRandom(muted)
         wrongRetryUnlockAt = Date.now() + DELAY_BEFORE_RETRY_MS
-        wrongRetryIntervalId = window.setInterval(() => {
-          if (phase !== 'wrong') {
-            clearWrongRetryTicker()
-            return
-          }
-          if (Date.now() >= wrongRetryUnlockAt) {
-            clearWrongRetryTicker()
-          }
-          render()
-        }, 350)
+        startUnlockTicker('wrong')
         phase = 'wrong'
         render()
       }
@@ -580,15 +614,26 @@ export function mountGame(root: HTMLElement): () => void {
       cap.className = 'revealed-caption'
       cap.textContent = UI.revealedCaption
       main.appendChild(cap)
-      const autoR = document.createElement('p')
-      autoR.className = 'auto-hint'
-      autoR.textContent = UI.autoNextAfterReveal
-      main.appendChild(autoR)
+      const canNext = Date.now() >= wrongRetryUnlockAt
+      if (!canNext) {
+        const wait = document.createElement('p')
+        wait.className = 'auto-hint'
+        const secs = Math.max(1, Math.ceil((wrongRetryUnlockAt - Date.now()) / 1000))
+        wait.textContent = UI.waitBeforeNext.replace('{n}', String(secs))
+        main.appendChild(wait)
+      } else {
+        const autoR = document.createElement('p')
+        autoR.className = 'auto-hint'
+        autoR.textContent = UI.autoNextAfterReveal
+        main.appendChild(autoR)
+      }
       const nextBtnR = document.createElement('button')
       nextBtnR.type = 'button'
       nextBtnR.className = 'btn btn-primary btn-large'
       nextBtnR.textContent = UI.next
+      nextBtnR.disabled = !canNext
       nextBtnR.addEventListener('click', () => {
+        if (!canNext) return
         void resumeAudio()
         playClick(muted)
         goNext()

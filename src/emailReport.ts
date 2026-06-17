@@ -1,14 +1,16 @@
 /** ילד/ה פעיל/ת — לניתוב דוח אימייל */
-export type PlayerId = 'noa' | 'edo'
+export type PlayerId = 'noa' | 'edo' | 'guy'
 
 const RECIPIENT: Record<PlayerId, string> = {
   noa: 'tirza01@hotmail.com',
   edo: 'moshe.hoffman@gmail.com',
+  guy: 'tirza01@hotmail.com',
 }
 
 const DISPLAY_NAME: Record<PlayerId, string> = {
   noa: 'נעה',
   edo: 'עדו',
+  guy: 'גיא',
 }
 
 export type WrongChoiceLine = { prompt: string; chosen: string }
